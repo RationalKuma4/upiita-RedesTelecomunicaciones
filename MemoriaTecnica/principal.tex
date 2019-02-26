@@ -501,13 +501,97 @@ del nivel de servicio.
 \\ \\
 \textbf{Grado de servicio gold}
 \begin{itemize}
-    \item Presidencia - 8 Personas y 20 llamadas por persona. 160 llamadas totales.
-    \item Dirección general - 8 personas y 20 llamadas por persona. 160 llamadas totales.
-    \item Secretaría general - 10 y 15 llamadas por persona. 150 llamadas totales.
-    \item Esto es un total de llamadas de 470 llamadas por VoIP para el servicio platinum.
+    \item Relaciones internacionales - 6 Personas y 20 llamadas por persona. 120 llamadas totales.
+    \item Asesoría juridica - 10 personas y 20 llamadas por persona. 200 llamadas totales.
+    \item Esto es un total de llamadas de 320 llamadas por VoIP para el servicio gold.
 \end{itemize}
+\textbf{Protocolo propuesto} : PPP.
+\begin{itemize}
+    \item \textbf{Muestras: }10 [ms].
+    \item \textbf{G711} 100800 [bits].
+\end{itemize}
+\begin{equation}
+    A=\frac{320 * 180}{3600}=16 \ [erlangs]
+\end{equation}
+\textbf{Número de circuitos: } $\eta = 28$
+\newline
+\begin{equation}
+    BW_{protocolo}=28 * 100800 = 2822400 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{10\% \ control}=2822400*1.10 = 3104640 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{correccion \ errores}=3104640+300000 = 3404640 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{final \ cisco}=3404640*1.25 = 5106960 \ [bps]
+\end{equation}
+\\ \\
 \textbf{Grado de servicio silver}
+\begin{itemize}
+    \item Comunicación e imagén - 12 Personas y 15 llamadas por persona. 180 llamadas totales.
+    \item Departamento de producción - 10 Personas y 8 llamadas por persona. 80 llamadas totales.
+    \item Departamento comercial - 10 Personas y 20 llamadas por persona. 200 llamadas totales.
+    \item Esto es un total de llamadas de 460 llamadas por VoIP para el servicio silver.
+\end{itemize}
+\textbf{Protocolo propuesto} : VAD.
+\begin{itemize}
+    \item \textbf{Muestras: }10 [ms].
+    \item \textbf{G711} 45760 [bits].
+\end{itemize}
+\begin{equation}
+    A=\frac{460 * 180}{3600}=23 \ [erlangs]
+\end{equation}
+\textbf{Número de circuitos: } $\eta = 32$
+\newline
+\begin{equation}
+    BW_{protocolo}=32 * 45760 = 1464320 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{10\% \ control}=1464320*1.10 = 1610752 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{correccion \ errores}=1610752+300000 = 1910752 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{final \ cisco}=1910752*1.25 = 2388440 \ [bps]
+\end{equation}
+\\ \\
 \textbf{Grado de servicio básico}
+\begin{itemize}
+    \item Departamento de administración - 10 Personas y 20 llamadas. 200 llamadas totales.
+    \item Departamento financiero - 10 Personas y 15 llamadas. 150 llamadas totales.
+    \item Relaciones públicas - 5 Personas y 20 llamadas. 100 llamadas totales.
+    \item Esto es un total de llamadas de 450 llamadas por VoIP para el servicio básico.
+\end{itemize}
+\textbf{Protocolo propuesto} : RTCP.
+\begin{itemize}
+    \item \textbf{Muestras: }20 [ms].
+    \item \textbf{G711} 67200 [bits].
+\end{itemize}
+\begin{equation}
+    A=\frac{450 * 180}{3600}=22.5 \ [erlangs]
+\end{equation}
+\textbf{Número de circuitos: } $\eta = 21$
+\newline
+\begin{equation}
+    BW_{protocolo}=21 * 67200 = 1411200 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{10\% \ control}=1411200*1.10 = 1552320 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{correccion \ errores}=1552320+300000 = 1852320 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{final \ cisco}=1852320*1.25 = 2315400 \ [bps]
+\end{equation}
+\\
+\textbf{Suma total de BW para el servicio de VoIP}
+\begin{equation}
+    \sum BW_{VoIP}=6473400+5106960+2388440+2315400=16.2842 \ [Mbps]
+\end{equation}
 
 
 \newpage
