@@ -1,0 +1,34 @@
+\BOOKMARK [1][-]{section.1}{La Coste\361a}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Misi\363n}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Visi\363n}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Historia}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Productos}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Localizaci\363n de los puntos de enrutamiento}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Corporativo}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Centro de datos}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{Poligonal}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Ubicaci\363n y niveles por ocupar en el edificio}{}% 10
+\BOOKMARK [1][-]{section.4}{Organigrama}{}% 11
+\BOOKMARK [1][-]{section.5}{Detalle arquitect\363nico}{}% 12
+\BOOKMARK [1][-]{section.6}{Medios telem\341ticos}{}% 13
+\BOOKMARK [2][-]{subsection.6.1}{Correo electr\363nico}{section.6}% 14
+\BOOKMARK [2][-]{subsection.6.2}{Video conferencias}{section.6}% 15
+\BOOKMARK [2][-]{subsection.6.3}{Voice over IP}{section.6}% 16
+\BOOKMARK [2][-]{subsection.6.4}{Web empresarial}{section.6}% 17
+\BOOKMARK [2][-]{subsection.6.5}{FTP}{section.6}% 18
+\BOOKMARK [2][-]{subsection.6.6}{Base de datos}{section.6}% 19
+\BOOKMARK [1][-]{section.7}{Protocolos y codec VoIP}{}% 20
+\BOOKMARK [2][-]{subsection.7.1}{Protocolo IP}{section.7}% 21
+\BOOKMARK [2][-]{subsection.7.2}{Protocolo UDP}{section.7}% 22
+\BOOKMARK [2][-]{subsection.7.3}{Protocolo TCP/IP}{section.7}% 23
+\BOOKMARK [2][-]{subsection.7.4}{RTCP}{section.7}% 24
+\BOOKMARK [2][-]{subsection.7.5}{PPP}{section.7}% 25
+\BOOKMARK [2][-]{subsection.7.6}{VAD}{section.7}% 26
+\BOOKMARK [1][-]{section.8}{Servicios Schedule VF}{}% 27
+\BOOKMARK [1][-]{section.9}{Gestor de servidor}{}% 28
+\BOOKMARK [1][-]{section.10}{BW calculado}{}% 29
+\BOOKMARK [2][-]{subsection.10.1}{Proceso y operaciones para calcular el ancho de banda para VoIP}{section.10}% 30
+\BOOKMARK [1][-]{section.11}{Tributarios}{}% 31
+\BOOKMARK [1][-]{section.12}{Especificaciones de equipos de red}{}% 32
+\BOOKMARK [1][-]{section.13}{Conectividad enlace ATM}{}% 33
+\BOOKMARK [1][-]{section.14}{Arquitectura de red \(Intra-ATM\)}{}% 34

@@ -1,0 +1,35 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}La Coste\IeC {\~n}a}{5}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Misi\IeC {\'o}n}{5}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Visi\IeC {\'o}n}{5}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Historia}{5}{subsection.1.3}% 
+\contentsline {subsection}{\numberline {1.4}Productos}{6}{subsection.1.4}% 
+\contentsline {section}{\numberline {2}Localizaci\IeC {\'o}n de los puntos de enrutamiento}{8}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Corporativo}{8}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Centro de datos}{9}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Poligonal}{10}{subsection.2.3}% 
+\contentsline {section}{\numberline {3}Ubicaci\IeC {\'o}n y niveles por ocupar en el edificio}{11}{section.3}% 
+\contentsline {section}{\numberline {4}Organigrama}{12}{section.4}% 
+\contentsline {section}{\numberline {5}Detalle arquitect\IeC {\'o}nico}{13}{section.5}% 
+\contentsline {section}{\numberline {6}Medios telem\IeC {\'a}ticos}{14}{section.6}% 
+\contentsline {subsection}{\numberline {6.1}Correo electr\IeC {\'o}nico}{14}{subsection.6.1}% 
+\contentsline {subsection}{\numberline {6.2}Video conferencias}{14}{subsection.6.2}% 
+\contentsline {subsection}{\numberline {6.3}Voice over IP}{14}{subsection.6.3}% 
+\contentsline {subsection}{\numberline {6.4}Web empresarial}{14}{subsection.6.4}% 
+\contentsline {subsection}{\numberline {6.5}FTP}{15}{subsection.6.5}% 
+\contentsline {subsection}{\numberline {6.6}Base de datos}{15}{subsection.6.6}% 
+\contentsline {section}{\numberline {7}Protocolos y codec VoIP}{16}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}Protocolo IP}{16}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}Protocolo UDP}{16}{subsection.7.2}% 
+\contentsline {subsection}{\numberline {7.3}Protocolo TCP/IP}{17}{subsection.7.3}% 
+\contentsline {subsection}{\numberline {7.4}RTCP}{17}{subsection.7.4}% 
+\contentsline {subsection}{\numberline {7.5}PPP}{17}{subsection.7.5}% 
+\contentsline {subsection}{\numberline {7.6}VAD}{18}{subsection.7.6}% 
+\contentsline {section}{\numberline {8}Servicios Schedule VF}{19}{section.8}% 
+\contentsline {section}{\numberline {9}Gestor de servidor}{19}{section.9}% 
+\contentsline {section}{\numberline {10}BW calculado}{20}{section.10}% 
+\contentsline {subsection}{\numberline {10.1}Proceso y operaciones para calcular el ancho de banda para VoIP}{21}{subsection.10.1}% 
+\contentsline {section}{\numberline {11}Tributarios}{23}{section.11}% 
+\contentsline {section}{\numberline {12}Especificaciones de equipos de red}{24}{section.12}% 
+\contentsline {section}{\numberline {13}Conectividad enlace ATM}{25}{section.13}% 
+\contentsline {section}{\numberline {14}Arquitectura de red (Intra-ATM)}{26}{section.14}% 

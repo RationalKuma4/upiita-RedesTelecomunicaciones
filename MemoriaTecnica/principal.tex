@@ -1,0 +1,543 @@
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage[spanish,es-tabla,es-nodecimaldot]{babel}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{anysize} 
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{pdfpages}
+\usepackage{graphics}
+\usepackage{capt-of}
+\usepackage[colorlinks=true,plainpages=true,citecolor=blue,linkcolor=blue]{hyperref}
+
+\marginsize{2cm}{2cm}{2cm}{2cm}
+\pagestyle{fancy}
+\fancyhf{Redes de Telecomunicaciones}
+\fancyhead[L]{\footnotesize UPIITA-IPN} 
+\fancyhead[R]{\footnotesize 4TV2} 
+\fancyfoot[R]{\footnotesize Memoria Técnica}
+\fancyfoot[C]{\thepage}
+\fancyfoot[L]{\footnotesize La Costeña} 
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\spanishtablename}{Tabla}
+\graphicspath{ {C:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes} }
+
+\begin{document}
+
+\includepdf[pages={1}]{portada}
+
+\newpage
+\tableofcontents
+
+\newpage
+\listoffigures
+\listoftables
+
+\newpage
+\section{La Costeña}
+Conservas La Costeña, usualmente llamada La Costeña, es una marca mexicana dedicada al mercado de conservas. 
+Fue fundada en 1923 por Vicente López Recines. La empresa se ha convertido en una marca importante dentro y fuera de México. 
+Hoy en día, La Costeña vende sus productos en todo México y en 40 países de todo el mundo. A pesar de que sus productos al principio eran chiles, 
+la empresa comenzó a producir nuevos productos como frijoles, ketchup, vegetales y otros. Las plantas de producción también han sido modificadas, 
+además de que las fábricas han ganado algunos reconocimientos por los cambios en tecnología y procesos. \cite{lacostena}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{imagenes/lacostena.jpg}
+    \caption{Logotipo empresa.}
+\end{figure}
+
+\subsection{Misión}
+Proporcionar a las familias alimentos envasados de alta calidad que preserven el buen sabor de la cocina mexicana, 
+faciliten su preparación y mantenga un precio bajo, con la finalidad de que sean accesibles para todos los consumidores.
+
+\subsection{Visión}
+Ser la empresa líder en el mercado nacional de conservas alimenticias y con creciente presencia internacional que a 
+través de los productos y servicios proporcione la mayor satisfacción a sus clientes, basándose en el desarrollo de personal 
+altamente calificado y comprometido, así como el empleo de tecnología de punta para la creación de nuestros productos.
+
+\subsection{Historia}
+La Costeña fue fundada en 1923 por Vicente López Recines. Compró una pequeña tienda de comestibles llamada ''La Costeña'' donde 
+comenzó a preparar chiles en vinagre. Empaquetaba y vendía chiles en frascos de 20 kilogramos con alcohol para que duraran más 
+tiempo. En 1937 López decidió crear su propia compañía de jarras; esta decisión cambió el negocio. 
+\\ \\
+En 1948, fundó la fábrica principal en la Ciudad de México. Tiene una superficie de cinco mil metros cuadrados. La nueva planta 
+de producción cuenta con carretillas elevadoras y unidades de transporte, por lo que el negocio sigue creciendo y ampliando su 
+territorio de distribución. El negocio comenzó su industrialización con la aplicación de la primera línea de producción automática 
+con latas de 3 kilos en 1951. Cuatro años más tarde la empresa instaló una línea de producción automática para fabricar latas de 
+105 gramos, además se inició la distribución en el interior del país. En 1971 la fábrica se trasladó a Ecatepec con una instalación 
+de 180,00 metros cuadrados. Desde entonces, esta instalación ha aumentado en 70 mil metros cuadrados.
+\\ \\
+En 1975 la compañía entró en el mercado estadounidense. La compañía continuó creciendo y para 1991 había fundado una nueva planta 
+de producción en Sonora para la producción de ketchup, vegetales y más. En 1994 se construyó una nueva planta en San Luis Potosí. 
+En 2006 se inició un nuevo proyecto sobre una planta completamente automática; esta nueva planta trabajará con robots; esta 
+creación representa una producción mejor y más rápida con más calidad.
+\\ \\ 
+En 2014, La Costeña adquirió la conservera estadounidense Faribault Foods, fundada en 1895. En 2015, La Costeña anunció que triplicará 
+el espacio de fabricación y almacenamiento de Faribault Foods en Faribault, MN, a casi un millón de pies cuadrados en los próximos tres 
+años. Las marcas de Faribault incluyen frijoles S y W, frijoles y salsas SunVista, frijoles Lucks, frijoles KC Masterpiece, frijoles 
+de chile Mrs. Grimes, vegetales Kuners de Colorado, néctar Kerns, vegetales Butter Kernel, chile ChilliMan, vegetales Pride y bocadillos Totis.
+
+\subsection{Productos}
+La empresa dispone de una gran variedad de productos en diferentes presentaciones. Sus principales productos son chiles, frijoles, puré de 
+tomate, ketchup, mayonesa, vegetales, cremas y sopas, salsas, especialidades, vinagre, frutas, mermeladas y mermeladas, paquetes de porciones, 
+Dona Chonita, Rancherita.
+\\ \\
+\textbf{Pimientos picantes} 
+\\
+Los productos incluyen jalapeños, chiles nachos, pedacitos de jalapeños, serranos, serranos, serranos, rajas rojas, rajas verdes, tomatillos, 
+chipotles, pedacitos de chipotle, pedacitos de zanahoria y chiles largos.
+\\ \\
+\textbf{Frijoles} 
+\\
+Otra gran parte de los productos son los frijoles (frijoles negros y frijoles rojos). Sus presentaciones pueden ser enteras, refritas y en grano. 
+Algunos de ellos también se pueden mezclar con chorizo, queso, chipotle y corteza de cerdo, finalmente los frijoles ya se pueden preparar con 
+recetas tradicionales como los frijoles charros o salsa para enfrijoladas (similar a las enchiladas). 
+\\ \\
+\textbf{Puré de tomate} 
+\\
+En los productos de puré de tomate podemos encontrar cuatro preparaciones diferentes: puré de tomate, puré de condimento de tomate, puré de 
+condimento de tomate al fuego y tomate pelado picado. Estas salsas de tomate se utilizan para crear la base de algunas sopas mexicanas y 
+algunos platos mexicanos. La presentación para la botella exprimible de ketchup, botella de vidrio de ketchup, salsa estilo ketchup. El 
+objetivo de la presentación son los niños.
+\\ \\
+\textbf{Mayonesa} 
+\\
+En los productos de mayonesa hay muchas presentaciones: la mayonesa con jugo de limón en botella y presentación exprimible, aderezo de 
+mayonesa para ensaladas en botella y presentación exprimible, mayonesa ligera en botella y presentación exprimible, mayonesa con jalapeño 
+en botella y presentación exprimible y mayonesa con chipotle en botella y presentación exprimible.
+\\ \\
+\textbf{Verduras} 
+\\
+Para las verduras hay cinco presentaciones diferentes: maíz dorado, guisantes, ensaladas de verduras, guisantes con zanahorias, pimientos en rodajas.
+\\ \\
+\textbf{Cremas} 
+\\
+En las cremas y sopas hay muchas presentaciones: maíz, frijol, champiñones, espárragos, cremas frías poblanas. Pollo y verduras, sopas de lentejas. Jalisco y Guerrero Pozole.
+\\ \\
+\textbf{Giro} 
+\\
+Industria manufacturera de alimentos.
+\\ \\
+\textbf{Tipo de empresa según su sector económico} 
+\\
+De producción.
+
+\newpage
+\section{Localización de los puntos de enrutamiento}
+
+\subsection{Corporativo}
+Calle Lago Zurich 245, Amp Granada, 11529 Ciudad de México, CDMX.
+\\ Coordenadas: 19.44 N, 99.20 W.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{imagenes/corporativo.png}
+    \caption{Corporativo.}
+\end{figure}
+
+\subsection{Centro de datos}
+Av. 12 No 96 Interior 2, Col. Ignacio Zaragoza, México D.F. CP. 15000.
+\\ Coordenadas: 19.41 N, 99.09 W
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{imagenes/centrodatos.png}
+    \caption{Centro de datos.}
+\end{figure}
+
+\newpage
+\subsection{Poligonal}
+
+\newpage
+\section{Ubicación y niveles por ocupar en el edificio}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{imagenes/edificios.png}
+    \caption{Plaza Carso.}
+\end{figure}
+Calle Lago Zurich 245, Amp Granada, 11529 Ciudad de México, CDMX.
+\\
+Corporativo ubicado en plaza Carso, en la torre Frisco/Zurich, piso 8.
+
+\newpage
+\section{Organigrama}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{imagenes/organigrama.png}
+    \caption{Organigrama.}
+\end{figure}
+
+\newpage
+\section{Detalle arquitectónico}
+La Torre de oficinas Lago Zurich está construida en un área de 2,130 $m^2$, cuenta con 19 pisos, 
+de los cuales 17 se destinan al servicio de oficinas y dos al servicio comercial. Su diseño 
+arquitectónico es de tipo moderno. El total de construcción es 36,210 $m^2$.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.75]{imagenes/detalle.png}
+    \caption{Detalle de piso.}
+\end{figure}
+
+\newpage
+\section{Medios telemáticos}
+
+\subsection{Correo electrónico}
+El correo electrónico es un servicio de red que permite a los usuarios enviar y recibir 
+mensajes (también denominados mensajes electrónicos o cartas digitales) mediante redes de 
+comunicación electrónica.
+\\ \\
+Los sistemas de correo electrónico se basan en un modelo de almacenamiento y reenvío, de 
+modo que no es necesario que ambos extremos se encuentren conectados simultáneamente. 
+Para ello se emplea un servidor de correo que hace las funciones de intermediario, guardando 
+temporalmente los mensajes antes de enviarse a sus destinatarios. 
+
+\subsection{Video conferencias}
+Videoconferencia o videollamada es la comunicación simultánea bidireccional de audio y vídeo, 
+que permite mantener reuniones con grupos de personas situadas en lugares alejados entre sí. 
+Adicionalmente, pueden ofrecerse facilidades telemáticas o de otro tipo como el intercambio 
+de gráficos, imágenes fijas, transmisión de archivos desde el ordenador.
+
+\subsection{Voice over IP}
+Voz sobre protocolo de internet o Voz por protocolo de internet, también llamado voz sobre IP, 
+voz IP, vozIP o VoIP, es un conjunto de recursos que hacen posible que la señal de voz viaje 
+a través de Internet empleando el protocolo IP. Esto significa que se envía la señal de voz 
+en forma digital, en paquetes de datos, en lugar de enviarla en forma analógica a través de 
+circuitos utilizables solo por telefonía convencional, como las redes PSTN.
+\\ \\ 
+El tráfico de voz sobre IP puede circular por cualquier red IP, incluyendo aquellas conectadas 
+a Internet, como por ejemplo las LAN.
+Es muy importante diferenciar entre voz sobre IP (VoIP) y telefonía sobre IP.
+\begin{itemize}
+    \item VoIP es el conjunto de normas, dispositivos, protocolos que permite transmitir voz sobre el protocolo IP.
+    \item La telefonía sobre IP es el servicio telefónico disponible al público, por tanto, con numeración E.164, realizado con tecnología de VoIP.
+\end{itemize}
+
+\subsection{Web empresarial}
+Un sitio web es un gran espacio documental organizado que la mayoría de las veces está 
+típicamente dedicado a algún tema particular o propósito específico. Cualquier sitio web 
+puede contener hiperenlaces a cualquier otro sitio web, de manera que la distinción entre 
+sitios individuales.
+\\ \\ 
+No debemos confundir sitio web con página web; esta última es solo un archivo HTML, una 
+unidad HTML, que forma parte de algún sitio web. Al ingresar una dirección web, siempre 
+se está haciendo referencia a un sitio web, el que tiene una página HTML inicial, que es 
+generalmente la primera que se visualiza. 
+
+\subsection{FTP}
+El FTP es un protocolo de red: un conjunto de reglas que establecen cómo deben comunicarse 
+dos o más entidades para lograr la transmisión de información. En el caso específico del 
+FTP, es un protocolo centrado en la transferencia de archivos a través de una red de tipo 
+TCP/IP que se basa en la arquitectura cliente-servidor.
+\\ \\ 
+El equipo cliente, en este marco, se conecta al servidor mediante el FTP con el objetivo 
+de enviar o descargar archivos. Este protocolo busca maximizar la velocidad, sin apelar 
+al cifrado para proteger la información. Por eso muchas veces se recurre a aplicaciones 
+que posibilitan la transferencia del material, pero con el tráfico cifrado.
+
+\subsection{Base de datos}
+Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados 
+sistemáticamente para su posterior uso. Actualmente, y debido al desarrollo tecnológico de 
+campos como la informática y la electrónica, la mayoría de las bases de datos están en 
+formato digital, siendo este un componente electrónico, por tanto, se ha desarrollado y 
+se ofrece un amplio rango de soluciones al problema del almacenamiento de datos.
+\\ \\ 
+Existen programas denominados sistemas gestores de bases de datos, abreviado SGBD (del 
+inglés Database Management System o DBMS), que permiten almacenar y posteriormente acceder 
+a los datos de forma rápida y estructurada. Las propiedades de estos DBMS, así como su 
+utilización y administración, se estudian dentro del ámbito de la informática.
+
+\newpage
+\section{Protocolos y codec VoIP}
+\subsection{Protocolo IP}
+El protocolo de IP (Internet Protocol) es la base fundamental de la Internet. Porta 
+datagramas de la fuente al destino. El nivel de transporte parte el flujo de datos en 
+datagramas. Durante su transmisión se puede partir un datagrama en fragmentos que se 
+montan de nuevo en el destino. Las principales características de este protocolo son:
+\begin{itemize}
+    \item Protocolo orientado a no conexión.
+    \item Fragmenta paquetes si es necesario.
+    \item Direccionamiento mediante direcciones lógicas IP de 32 bits.
+    \item Si un paquete no es recibido, este permanecerá en la red durante un tiempo finito.
+    \item Realiza el "mejor esfuerzo" para la distribución de paquetes.
+    \item Tamaño máximo del paquete de 65635 bytes.
+    \item Sólo ser realiza verificación por suma al encabezado del paquete, no a los datos éste que contiene.
+\end{itemize}
+
+El Protocolo Internet proporciona un servicio de distribución de paquetes de información 
+orientado a no conexión de manera no fiable. La orientación a no conexión significa que los 
+paquetes de información, que será emitido a la red, son tratados independientemente, pudiendo 
+viajar por diferentes trayectorias para llegar a su destino. El término no fiable significa 
+más que nada que no se garantiza la recepción del paquete.
+
+\subsection{Protocolo UDP}
+El grupo de protocolos de Internet también maneja un protocolo de transporte sin conexiones, 
+el UDP (User Data Protocol, protocolo de datos de usuario). El UDP ofrece a las aplicaciones 
+un mecanismo para enviar datagramas IP en bruto encapsulados sin tener que establecer una 
+conexión.
+\\ \\
+Muchas aplicaciones cliente-servidor que tienen una solicitud y una respuesta usan el UDP en 
+lugar de tomarse la molestia de establecer y luego liberar una conexión. El UDP se describe 
+en el RFC 768. Un segmento UDP consiste en una cabecera de 8 bytes seguida de los datos. La 
+cabecera se muestra a continuación. Los dos puertos sirven para lo mismo que en el TCP: para 
+identificar los puntos terminales de las máquinas origen y destino. El campo de longitud UDP 
+incluye la cabecera de 8 bytes y los datos. La suma de comprobación UDP incluye la misma 
+pseudocabecera de formato, la cabecera UDP, y los datos, rellenados con una cantidad par 
+de bytes de ser necesario.
+
+\subsection{Protocolo TCP/IP}
+TCP/IP es el nombre de un protocolo de conexión de redes. Un protocolo es un conjunto de 
+reglas a las que se tiene que atener todas la compañías y productos de software con él fin 
+de que todos sus productos sean compatibles entre ellos. Estas reglas aseguran que una 
+máquina que ejecuta la versión TCP/IP de Digital Equipment pueda hablar con un PC Compaq 
+que ejecuta TCP/IP.
+\\ \\
+TCP/IP es un protocolo abierto, lo que significa que se publican todos los aspectos concretos 
+del protocolo y cualquiera los puede implementar.
+\\ \\
+TCP/IP está diseñado para ser un componente de una red, principalmente la parte del software. 
+Todas las partes del protocolo de la familia TCP/IP tienen unas tareas asignadas como enviar 
+correo electrónico, proporcionar un servicio de acceso remoto, transferir ficheros, asignar 
+rutas a los mensajes o gestionar caídas de la red.
+\\ \\
+Una red TCP/IP transfiere datos mediante el ensamblaje de bloque de datos en paquetes. Cada 
+paquete comienza con una cabecera que contiene información de control, tal como la dirección 
+del destino, seguida de los datos. Cuando se envía un archivo a través de una red TCP/IP, 
+su contenido se envía utilizando una serie de paquetes diferentes.
+
+\subsection{RTCP}
+RTP es la abreviación de Real-time Transport Protocol, por su denominación en inglés. Es un 
+estándar creado por la IETF para la transmisión confiable de voz y video a través de Internet. 
+La primera versión fue publicada en 1996 en el documento RFC 1889 y fue reemplazado por el 
+estándar RFC 3550 en 2003.
+\\ \\
+En aplicaciones de Voz sobre IP, RTP es el protocolo responsable de la transmisión de los 
+datos. La digitalización y compresión de la voz y el video es realizada por el CODEC. Para 
+el manejo de señalización o establecimiento de llamada existe el protocolo SIP.
+\\ \\
+Dentro del estándar RFC 3550 se define un protocolo adicional para el envío de datos de 
+control y datos de mediciones realizadas durante la transmisión. Se conoce como RTCP RTP 
+Control Protocol. los paquetes RTCP se envían periódicamente dentro de la secuencia de 
+paquetes RTP.
+
+\subsection{PPP}
+PPP se utiliza comúnmente como protocolo de capa de enlace de datos para la conexión a través 
+de circuitos síncronos y asíncronos, donde ha reemplazado en gran medida a los antiguos 
+protocolos de Internet de línea serie (SLIP) y a los estándares exigidos por las compañías 
+telefónicas (como el protocolo de acceso de enlace, balanceado (LAPB) en el conjunto de 
+protocolos X.25). El único requisito para el PPP es que el circuito suministrado sea dúplex. 
+PPP fue diseñado para trabajar con numerosos protocolos de capa de red, incluyendo el 
+Protocolo de Internet (IP), TRILL, Internetwork Packet Exchange (IPX) de Novell, NBF, 
+DECnet y AppleTalk. Al igual que SLIP, se trata de una conexión completa a Internet a 
+través de líneas telefónicas por módem. 
+\\ \\
+El RFC 2516 describe el Protocolo Punto a Punto sobre Ethernet (PPPoE) como un método para 
+transmitir PPP sobre Ethernet que a veces se utiliza con DSL. El RFC 2364 describe el 
+Protocolo Punto a Punto sobre ATM (PPPoA) como un método para transmitir PPP sobre ATM 
+Adaptation Layer 5 (AAL5), que es también una alternativa común a PPPoE utilizado con DSL.
+\\ \\
+PPP es un protocolo estratificado que tiene tres componentes:
+\begin{itemize}
+    \item Un componente de encapsulación que se utiliza para transmitir datagramas sobre la capa física especificada.
+    \item Un Protocolo de Control de Enlaces (LCP) para establecer, configurar y probar el enlace, así como para negociar la configuración, las opciones y el uso de las funciones.
+    \item Uno o más Protocolos de Control de Red (NCP) utilizados para negociar parámetros de configuración opcionales y facilidades para la capa de red. Existe un NCP para cada protocolo de capa superior soportado por PPP.
+\end{itemize}
+
+\subsection{VAD}
+En Voz sobre IP (VOiP), la detección de activación de voz (VAD) es una aplicación de software 
+que permite a una red de datos que transporta tráfico de voz a través de Internet detectar la 
+ausencia de audio y conservar el ancho de banda evitando la transmisión de "paquetes 
+silenciosos" a través de la red. La mayoría de las conversaciones incluyen un 50 prociento 
+de silencio; el VAD (también llamado "supresión de silencio") puede habilitarse para 
+monitorizar señales de actividad de voz, de modo que cuando se detecta silencio durante un 
+tiempo determinado, la aplicación informa al protocolo de voz en paquetes e impide que la 
+salida del codificador sea transportada a través de la red.
+\\ \\
+La detección de activación por voz también se puede utilizar para reenviar las características 
+de ruido de ralentí (a veces llamado ruido ambiental o de confort) a un teléfono IP remoto 
+o a una pasarela. El estándar universal para voz digitalizada, 64 Kbps, es una velocidad de 
+bits constante, ya sea que el hablante esté hablando activamente, esté haciendo una pausa 
+entre pensamientos o esté totalmente en silencio. Sin el ruido de ralentí que da la ilusión 
+de un flujo de transmisión constante durante la supresión del silencio, es probable que el 
+oyente piense que la línea se ha cortado.
+
+\newpage
+\section{Servicios Schedule VF}
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|l|}
+    \hline
+    Departamento & Disponibilidad \\ \hline
+    Presidencia & Todo el día \\ \hline
+    Dirección general & 10:00 a. m. - 5:00 pm \\ \hline
+    Secretaría general & 10:00 a. m. - 5:00 pm \\ \hline
+    Asesoría juridica & No \\ \hline
+    Comunicación e imagén & 12:00 a. m. - 4:00 pm \\ \hline
+    Relaciones internacionales & Todo el día \\ \hline
+    Departamento administrativo & No \\ \hline
+    Departamento de producción & No \\ \hline
+    Departamento comercial & 9:00 a. m. - 3:00 pm \\ \hline
+    Departamento financiero & No \\ \hline
+    Relaciones publicas & No \\ \hline
+    \end{tabular}
+    \caption{Schedule VF}
+    \label{my-label}
+\end{table}
+
+\section{Gestor de servidor}
+
+\newpage
+\section{BW calculado}
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|l|}
+    \hline
+    Departamento & Número de empleados \\ \hline
+    Presidencia & 8 \\ \hline
+    Dirección general & 8 \\ \hline
+    Secretaría general & 10 \\ \hline
+    Asesoría juridica & 10 \\ \hline
+    Comunicación e imagén & 12 \\ \hline
+    Relaciones internacionales & 6 \\ \hline
+    Departamento administrativo & 12 \\ \hline
+    Departamento de producción & 10 \\ \hline
+    Departamento comercial & 10 \\ \hline
+    Departamento financiero & 10 \\ \hline
+    Relaciones publicas & 5 \\ \hline
+    \multicolumn{1}{|r|}{Total de empleados} & \textbf{101} \\ \hline
+    \end{tabular}
+    \caption{Número de empleados}
+    \label{my-label}
+\end{table}
+
+\textbf{Calculo de disponibilidad de acuerdo con el porcentaje del grado de servicio}
+\begin{equation}
+    Disponibilidad=1-\frac{Porcentaje}{100}
+\end{equation}
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    Grado de servicio & Margen de error & Disponibilidad \\ \hline
+    Platinum & 0.0001 & 99.99\% \\ \hline
+    Golden & 0.002 & 99.8\% \\ \hline
+    Silver & 0.02 & 98\% \\ \hline
+    Basico & 0.2 & 80\% \\ \hline
+    \end{tabular}
+    \caption{Niveles de servicio}
+    \label{my-label}
+\end{table}
+
+\newpage
+\subsection{Proceso y operaciones para calcular el ancho de banda para VoIP}
+1. Calculo de erlangs.
+\begin{equation}
+    A=\frac{N* \overline{t}}{hp}[erlang]
+\end{equation}
+Donde: \newline
+$N$: Número de llamadas reservadas. \newline
+$\overline{t}$: Tiempo promedio de llamada. \newline
+$hp$: Tiempo total de muestra. \newline
+\\
+2. De acuerdo con el número de erlangs obtenidos, se procede a buscar el numero de circuitos 
+en la tabla erlangt-es de la ITU. $\eta$: número de circuitos.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{imagenes/tablaerlang.PNG}
+    \caption{Muestra de tabla de erlangs - número de circuitos.}
+\end{figure}
+\\
+3. Calculo del ancho de banda total.
+\begin{equation}
+    BW_{protocolo}=\eta * protocolo \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{10\% \ control}=BW_{protocolo}*1.10 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{correccion \ errores}=BW_{10\% \ control}+300000 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{final \ cisco}=BW_{correccion \ errores}*1.25 \ [bps]
+\end{equation}
+
+\newpage
+Los cálculos para el servicio VoIP se realizarán juntos de acuerdo con la clasificación 
+del nivel de servicio.
+\\ \\
+\textbf{Grado de servicio platinum}
+\begin{itemize}
+    \item Presidencia - 8 Personas y 20 llamadas por persona. 160 llamadas totales.
+    \item Dirección general - 8 personas y 20 llamadas por persona. 160 llamadas totales.
+    \item Secretaría general - 10 y 15 llamadas por persona. 150 llamadas totales.
+    \item Esto es un total de llamadas de 470 llamadas por VoIP para el servicio platinum.
+\end{itemize}
+\textbf{Protocolo propuesto} : PPP.
+\begin{itemize}
+    \item \textbf{Muestras: }10 [ms].
+    \item \textbf{G711} 100800 [bits].
+\end{itemize}
+\begin{equation}
+    A=\frac{470 * 180}{3600}=23.5 \ [erlangs]
+\end{equation}
+\textbf{Número de circuitos: } $\eta = 44$
+\newline
+\begin{equation}
+    BW_{protocolo}=44 * 100800 = 4435200 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{10\% \ control}=4435200*1.10 = 4878720 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{correccion \ errores}=4878720+300000 = 5178720 \ [bps]
+\end{equation}
+\begin{equation}
+    BW_{final \ cisco}=5178720*1.25 = 6473400 \ [bps]
+\end{equation}
+\\ \\
+\textbf{Grado de servicio gold}
+\begin{itemize}
+    \item Presidencia - 8 Personas y 20 llamadas por persona. 160 llamadas totales.
+    \item Dirección general - 8 personas y 20 llamadas por persona. 160 llamadas totales.
+    \item Secretaría general - 10 y 15 llamadas por persona. 150 llamadas totales.
+    \item Esto es un total de llamadas de 470 llamadas por VoIP para el servicio platinum.
+\end{itemize}
+\textbf{Grado de servicio silver}
+\textbf{Grado de servicio básico}
+
+
+\newpage
+\section{Tributarios}
+
+\newpage
+\section{Especificaciones de equipos de red}
+
+\newpage
+\section{Conectividad enlace ATM}
+
+\newpage
+\section{Arquitectura de red (Intra-ATM)}
+
+\newpage
+\begin{thebibliography}{20}
+    \bibitem{lacostena} 
+    lacostena.com.mx, "Sobre nosotros". 
+    [Online] Disponible lacostena.com.mx/es/sobre-nosotros.
+    [Ultimo Acceso: 22/02/2019]
+     
+    \bibitem{einstein} 
+    Albert Einstein. 
+    \textit{Zur Elektrodynamik bewegter K{\"o}rper}. (German) 
+    [\textit{On the electrodynamics of moving bodies}]. 
+    Annalen der Physik, 322(10):891–921, 1905.
+     
+    \bibitem{knuthwebsite} 
+    Knuth: Computers and Typesetting,
+    \\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+\end{thebibliography}
+
+\end{document}
