@@ -29,7 +29,11 @@
 \contentsline {section}{\numberline {9}Gestor de servidor}{19}{section.9}% 
 \contentsline {section}{\numberline {10}BW calculado}{20}{section.10}% 
 \contentsline {subsection}{\numberline {10.1}Proceso y operaciones para calcular el ancho de banda para VoIP}{21}{subsection.10.1}% 
-\contentsline {section}{\numberline {11}Tributarios}{25}{section.11}% 
-\contentsline {section}{\numberline {12}Especificaciones de equipos de red}{26}{section.12}% 
-\contentsline {section}{\numberline {13}Conectividad enlace ATM}{27}{section.13}% 
-\contentsline {section}{\numberline {14}Arquitectura de red (Intra-ATM)}{28}{section.14}% 
+\contentsline {subsection}{\numberline {10.2}Proceso y operaciones para calcular el ancho de banda para e-mail}{25}{subsection.10.2}% 
+\contentsline {subsection}{\numberline {10.3}Proceso y operaciones para calcular el ancho de banda para chat}{27}{subsection.10.3}% 
+\contentsline {subsection}{\numberline {10.4}Proceso y operaciones para calcular el ancho de la web empresarial}{29}{subsection.10.4}% 
+\contentsline {subsection}{\numberline {10.5}Proceso y operaciones para calcular el ancho de banda para video conferencia}{31}{subsection.10.5}% 
+\contentsline {section}{\numberline {11}Tributarios}{32}{section.11}% 
+\contentsline {section}{\numberline {12}Especificaciones de equipos de red}{33}{section.12}% 
+\contentsline {section}{\numberline {13}Conectividad enlace ATM}{34}{section.13}% 
+\contentsline {section}{\numberline {14}Arquitectura de red (Intra-ATM)}{35}{section.14}% 

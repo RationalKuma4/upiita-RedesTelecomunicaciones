@@ -28,7 +28,11 @@
 \BOOKMARK [1][-]{section.9}{Gestor de servidor}{}% 28
 \BOOKMARK [1][-]{section.10}{BW calculado}{}% 29
 \BOOKMARK [2][-]{subsection.10.1}{Proceso y operaciones para calcular el ancho de banda para VoIP}{section.10}% 30
-\BOOKMARK [1][-]{section.11}{Tributarios}{}% 31
-\BOOKMARK [1][-]{section.12}{Especificaciones de equipos de red}{}% 32
-\BOOKMARK [1][-]{section.13}{Conectividad enlace ATM}{}% 33
-\BOOKMARK [1][-]{section.14}{Arquitectura de red \(Intra-ATM\)}{}% 34
+\BOOKMARK [2][-]{subsection.10.2}{Proceso y operaciones para calcular el ancho de banda para e-mail}{section.10}% 31
+\BOOKMARK [2][-]{subsection.10.3}{Proceso y operaciones para calcular el ancho de banda para chat}{section.10}% 32
+\BOOKMARK [2][-]{subsection.10.4}{Proceso y operaciones para calcular el ancho de la web empresarial}{section.10}% 33
+\BOOKMARK [2][-]{subsection.10.5}{Proceso y operaciones para calcular el ancho de banda para video conferencia}{section.10}% 34
+\BOOKMARK [1][-]{section.11}{Tributarios}{}% 35
+\BOOKMARK [1][-]{section.12}{Especificaciones de equipos de red}{}% 36
+\BOOKMARK [1][-]{section.13}{Conectividad enlace ATM}{}% 37
+\BOOKMARK [1][-]{section.14}{Arquitectura de red \(Intra-ATM\)}{}% 38
