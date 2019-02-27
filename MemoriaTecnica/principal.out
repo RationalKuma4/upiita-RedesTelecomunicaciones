@@ -32,7 +32,10 @@
 \BOOKMARK [2][-]{subsection.10.3}{Proceso y operaciones para calcular el ancho de banda para chat}{section.10}% 32
 \BOOKMARK [2][-]{subsection.10.4}{Proceso y operaciones para calcular el ancho de la web empresarial}{section.10}% 33
 \BOOKMARK [2][-]{subsection.10.5}{Proceso y operaciones para calcular el ancho de banda para video conferencia}{section.10}% 34
-\BOOKMARK [1][-]{section.11}{Tributarios}{}% 35
-\BOOKMARK [1][-]{section.12}{Especificaciones de equipos de red}{}% 36
-\BOOKMARK [1][-]{section.13}{Conectividad enlace ATM}{}% 37
-\BOOKMARK [1][-]{section.14}{Arquitectura de red \(Intra-ATM\)}{}% 38
+\BOOKMARK [2][-]{subsection.10.6}{Suma total del ancho de banda de los servicios telematicos}{section.10}% 35
+\BOOKMARK [1][-]{section.11}{Tributarios}{}% 36
+\BOOKMARK [2][-]{subsection.11.1}{SONET/SDH}{section.11}% 37
+\BOOKMARK [2][-]{subsection.11.2}{Diferencia con PDH}{section.11}% 38
+\BOOKMARK [1][-]{section.12}{Especificaciones de equipos de red}{}% 39
+\BOOKMARK [1][-]{section.13}{Conectividad enlace ATM}{}% 40
+\BOOKMARK [1][-]{section.14}{Arquitectura de red \(Intra-ATM\)}{}% 41
