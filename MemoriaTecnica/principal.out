@@ -24,18 +24,24 @@
 \BOOKMARK [2][-]{subsection.7.4}{RTCP}{section.7}% 24
 \BOOKMARK [2][-]{subsection.7.5}{PPP}{section.7}% 25
 \BOOKMARK [2][-]{subsection.7.6}{VAD}{section.7}% 26
-\BOOKMARK [1][-]{section.8}{Servicios Schedule VF}{}% 27
-\BOOKMARK [1][-]{section.9}{Gestor de servidor}{}% 28
-\BOOKMARK [1][-]{section.10}{BW calculado}{}% 29
-\BOOKMARK [2][-]{subsection.10.1}{Proceso y operaciones para calcular el ancho de banda para VoIP}{section.10}% 30
-\BOOKMARK [2][-]{subsection.10.2}{Proceso y operaciones para calcular el ancho de banda para e-mail}{section.10}% 31
-\BOOKMARK [2][-]{subsection.10.3}{Proceso y operaciones para calcular el ancho de banda para chat}{section.10}% 32
-\BOOKMARK [2][-]{subsection.10.4}{Proceso y operaciones para calcular el ancho de la web empresarial}{section.10}% 33
-\BOOKMARK [2][-]{subsection.10.5}{Proceso y operaciones para calcular el ancho de banda para video conferencia}{section.10}% 34
-\BOOKMARK [2][-]{subsection.10.6}{Suma total del ancho de banda de los servicios telematicos}{section.10}% 35
-\BOOKMARK [1][-]{section.11}{Tributarios}{}% 36
-\BOOKMARK [2][-]{subsection.11.1}{SONET/SDH}{section.11}% 37
-\BOOKMARK [2][-]{subsection.11.2}{Diferencia con PDH}{section.11}% 38
-\BOOKMARK [1][-]{section.12}{Especificaciones de equipos de red}{}% 39
-\BOOKMARK [1][-]{section.13}{Conectividad enlace ATM}{}% 40
-\BOOKMARK [1][-]{section.14}{Arquitectura de red \(Intra-ATM\)}{}% 41
+\BOOKMARK [2][-]{subsection.7.7}{MPLS}{section.7}% 27
+\BOOKMARK [1][-]{section.8}{Servicios Schedule VF}{}% 28
+\BOOKMARK [1][-]{section.9}{Gestor de servidor}{}% 29
+\BOOKMARK [1][-]{section.10}{BW calculado}{}% 30
+\BOOKMARK [2][-]{subsection.10.1}{Proceso y operaciones para calcular el ancho de banda para VoIP}{section.10}% 31
+\BOOKMARK [2][-]{subsection.10.2}{Proceso y operaciones para calcular el ancho de banda para e-mail}{section.10}% 32
+\BOOKMARK [2][-]{subsection.10.3}{Proceso y operaciones para calcular el ancho de banda para chat}{section.10}% 33
+\BOOKMARK [2][-]{subsection.10.4}{Proceso y operaciones para calcular el ancho de la web empresarial}{section.10}% 34
+\BOOKMARK [2][-]{subsection.10.5}{Proceso y operaciones para calcular el ancho de banda para video conferencia}{section.10}% 35
+\BOOKMARK [2][-]{subsection.10.6}{Suma total del ancho de banda de los servicios telematicos}{section.10}% 36
+\BOOKMARK [1][-]{section.11}{Tributarios}{}% 37
+\BOOKMARK [2][-]{subsection.11.1}{PDH}{section.11}% 38
+\BOOKMARK [2][-]{subsection.11.2}{Jerarqu\355a digital plesi\363crona}{section.11}% 39
+\BOOKMARK [2][-]{subsection.11.3}{Divisi\363n de tributarios}{section.11}% 40
+\BOOKMARK [1][-]{section.12}{Especificaciones de equipos de red}{}% 41
+\BOOKMARK [2][-]{subsection.12.1}{Categor\355as de cables Ethernet}{section.12}% 42
+\BOOKMARK [2][-]{subsection.12.2}{Swicthes}{section.12}% 43
+\BOOKMARK [2][-]{subsection.12.3}{Routers}{section.12}% 44
+\BOOKMARK [2][-]{subsection.12.4}{Gateways}{section.12}% 45
+\BOOKMARK [1][-]{section.13}{Conectividad enlace ATM}{}% 46
+\BOOKMARK [1][-]{section.14}{Arquitectura de red \(Intra-ATM\)}{}% 47

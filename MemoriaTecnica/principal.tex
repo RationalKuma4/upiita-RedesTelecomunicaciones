@@ -13,6 +13,7 @@
 \usepackage{pdfpages}
 \usepackage{graphics}
 \usepackage{capt-of}
+\usepackage{tabularx}
 \usepackage[colorlinks=true,plainpages=true,citecolor=blue,linkcolor=blue]{hyperref}
 
 \marginsize{2cm}{2cm}{2cm}{2cm}
@@ -25,6 +26,7 @@
 \fancyfoot[L]{\footnotesize La Costeña} 
 \renewcommand{\footrulewidth}{0.4pt}
 \renewcommand{\spanishtablename}{Tabla}
+\renewcommand{\labelitemii}{$\star$}
 \graphicspath{ {C:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes} }
 
 \begin{document}
@@ -159,7 +161,7 @@ Av. 12 No 96 Interior 2, Col. Ignacio Zaragoza, México D.F. CP. 15000.
 \end{figure}
 Calle Lago Zurich 245, Amp Granada, 11529 Ciudad de México, CDMX.
 \\
-Corporativo ubicado en plaza Carso, en la torre Frisco/Zurich, piso 8.
+Corporativo ubicado en plaza Carso, en la torre Frisco/Zurich, piso 7 y 8.
 
 \newpage
 \section{Organigrama}
@@ -174,7 +176,8 @@ Corporativo ubicado en plaza Carso, en la torre Frisco/Zurich, piso 8.
 La Torre de oficinas Lago Zurich está construida en un área de 2130 $m^2$, cuenta con 19 pisos, 
 de los cuales 17 se destinan al servicio de oficinas y dos al servicio comercial. Su diseño 
 arquitectónico es de tipo moderno. El total de construcción es 36210 $m^2$. El corporativo hace 
-uso de dos pisos en los cuales se distribuyen el total de empleados de la organización co nun detalle similar.
+uso de dos pisos en los cuales se distribuyen el total de empleados de la organización con un detalle similar 
+al siguiente.
 \begin{figure}[ht]
     \centering
     \includegraphics[scale=.75]{imagenes/detalle.png}
@@ -363,6 +366,52 @@ entre pensamientos o esté totalmente en silencio. Sin el ruido de ralentí que 
 de un flujo de transmisión constante durante la supresión del silencio, es probable que el 
 oyente piense que la línea se ha cortado.
 
+\subsection{MPLS}
+Conmutación de etiquetas multiprotocolo (MPLS)
+La conmutación de etiquetas multiprotocolo (MPLS) es una técnica de enrutamiento agnóstico 
+al protocolo diseñada para acelerar y dar forma a los flujos de tráfico a través de las 
+redes de área amplia de la empresa y de los proveedores de servicios.
+\\ \\
+MPLS permite que la mayoría de los paquetes de datos se reenvíen a Nivel 2 - el nivel 
+de conmutación - en lugar de tener que pasar al Nivel 3 - el nivel de enrutamiento. Por 
+esta razón, a menudo se describe informalmente como operando en la capa 2.5.
+\\ \\
+MPLS fue creado a finales de los años 90 como una alternativa más eficiente al 
+enrutamiento IP tradicional, que requiere que cada enrutador determine independientemente 
+el siguiente salto de un paquete inspeccionando la dirección IP de destino del paquete 
+antes de consultar su propia tabla de enrutamiento. Este proceso consume tiempo y 
+recursos de hardware, lo que puede resultar en un rendimiento degradado para aplicaciones 
+en tiempo real, como voz y vídeo.
+\\ \\
+En una red MPLS, el primer enrutador en recibir un paquete determina la ruta completa 
+del paquete por adelantado, cuya identidad se transmite rápidamente a los enrutadores 
+subsiguientes utilizando una etiqueta en la cabecera del paquete.
+\\ \\
+Mientras que el hardware del router ha mejorado exponencialmente desde que se desarrolló 
+MPLS, disminuyendo un poco su importancia como una tecnología de gestión de tráfico más 
+eficiente, sigue siendo importante y popular debido a sus otros beneficios, en particular 
+la seguridad, la flexibilidad y la ingeniería de tráfico.
+\\ \\
+\textbf{Componentes de MPLS}
+\newline
+Una de las características que definen a MPLS es el uso de etiquetas, la L en MPLS. 
+Entre las capas 2 y 3, una etiqueta es un identificador de cuatro bytes - 32 bits - 
+que transmite la ruta de reenvío predeterminada del paquete en una red MPLS. Las 
+etiquetas también pueden contener información relacionada con la calidad de 
+servicio (QoS), indicando el nivel de prioridad de un paquete.
+\\ \\
+Las etiquetas MPLS constan de cuatro partes:
+\begin{itemize}
+    \item Valor de la etiqueta: 20 bits.
+    \item Experimental: 3 bits.
+    \item En la parte inferior de la pila: 1 bit.
+    \item Tiempo de vida: 8 bits.
+\end{itemize}
+
+Los trayectos, que se denominan trayectos con conmutación de etiquetas (LSP), 
+permiten a los proveedores de servicios decidir de antemano la mejor manera de 
+que determinados tipos de tráfico fluyan dentro de una red privada o pública.
+
 \newpage
 \section{Servicios Schedule VF}
 \begin{table}[ht]
@@ -414,7 +463,7 @@ oyente piense que la línea se ha cortado.
 
 \textbf{Calculo de disponibilidad de acuerdo con el porcentaje del grado de servicio}
 \begin{equation}
-    Disponibilidad=1-\frac{Porcentaje}{100}
+    Margen=1-\frac{Porcentaje}{100}
 \end{equation}
 
 \begin{table}[ht]
@@ -747,73 +796,73 @@ del nivel de servicio.
 \newpage
 \subsection{Proceso y operaciones para calcular el ancho de la web empresarial}
 \begin{equation}
-    BW_{Web+ftp}=Peticiones*Personas*BW_{servicio} \ [bps]
+    BW=Peticiones*Personas*BW_{servicio} \ [bps]
 \end{equation}
 \textbf{Presidencia}
 \begin{itemize}
     \item Estimación de Peticiones por persona: 35. 
-    \item Ancho de banda ocupado por servicio de web: 15000 bps.
-    \item BW=35*8*15000=4.2 \ [Mbps].
+    \item Ancho de banda ocupado por servicio de web: 20000 bps.
+    \item BW=35*8*20000=4.2 \ [Mbps].
 \end{itemize}
 \textbf{Dirección general}
 \begin{itemize}
     \item Estimación de Peticiones por persona: 30. 
-    \item Ancho de banda ocupado por servicio de web: 15000 bps.
-    \item BW=30*8*15000=3.6 \ [Mbps].
+    \item Ancho de banda ocupado por servicio de web: 20000 bps.
+    \item BW=30*8*20000=3.6 \ [Mbps].
 \end{itemize}
 \textbf{Secretaría general}
 \begin{itemize}
     \item Estimación de Peticiones por persona: 30. 
-    \item Ancho de banda ocupado por servicio de web: 15000 bps.
-    \item BW=30*10*15000=4.5 \ [Mbps].
+    \item Ancho de banda ocupado por servicio de web: 20000 bps.
+    \item BW=30*10*20000=4.5 \ [Mbps].
 \end{itemize}
 \textbf{Asesoría juridica}
 \begin{itemize}
     \item Estimación de Peticiones por persona: 15. 
-    \item Ancho de banda ocupado por servicio de web: 15000 bps.
-    \item BW=15*10*15000=2.25 \ [bps].
+    \item Ancho de banda ocupado por servicio de web: 20000 bps.
+    \item BW=15*10*20000=2.25 \ [bps].
 \end{itemize}
 \textbf{Comunicación e imagén}
 \begin{itemize}
     \item Estimación de Peticiones por persona: 40. 
-    \item Ancho de banda ocupado por servicio de web: 15000 bps.
-    \item BW=40*12*15000=7.2 \ [Mbps].
+    \item Ancho de banda ocupado por servicio de web: 20000 bps.
+    \item BW=40*12*20000=7.2 \ [Mbps].
 \end{itemize}
 \textbf{Relaciones internacionales}
 \begin{itemize}
     \item Estimación de Peticiones por persona: 20. 
-    \item Ancho de banda ocupado por servicio de web: 15000 bps.
-    \item BW=20*6*15000=1.8 \ [Mbps].
+    \item Ancho de banda ocupado por servicio de web: 20000 bps.
+    \item BW=20*6*20000=1.8 \ [Mbps].
 \end{itemize}
 \textbf{Departamento de administración}
 \begin{itemize}
     \item Estimación de Peticiones por persona: 20. 
-    \item Ancho de banda ocupado por servicio de web: 15000 bps.
-    \item BW=20*12*15000=3.6 \ [Mbps].
+    \item Ancho de banda ocupado por servicio de web: 20000 bps.
+    \item BW=20*12*20000=3.6 \ [Mbps].
 \end{itemize}
 \textbf{Departamento de producción}
 \begin{itemize}
     \item Estimación de Peticiones por persona: 15. 
-    \item Ancho de banda ocupado por servicio de web: 15000 bps.
-    \item BW=15*10*15000=2.25 \ [Mbps].
+    \item Ancho de banda ocupado por servicio de web: 20000 bps.
+    \item BW=15*10*20000=2.25 \ [Mbps].
 \end{itemize}
 \textbf{Departamento comercial}
 \begin{itemize}
     \item Estimación de Peticiones por persona: 30. 
-    \item Ancho de banda ocupado por servicio de web: 15000 bps.
-    \item BW=30*10*15000=4.5 \ [Mbps].
+    \item Ancho de banda ocupado por servicio de web: 20000 bps.
+    \item BW=30*10*20000=4.5 \ [Mbps].
 \end{itemize}
 \textbf{Departamento financiero}
 \begin{itemize}
     \item Estimación de Peticiones por persona: 15. 
-    \item Ancho de banda ocupado por servicio de web: 15000 bps.
-    \item BW=15*10*15000=2.25 \ [Mbps].
+    \item Ancho de banda ocupado por servicio de web: 20000 bps.
+    \item BW=15*10*20000=2.25 \ [Mbps].
 \end{itemize}
 \textbf{Relaciones públicas}
 \begin{itemize}
     \item Estimación de Peticiones por persona: 10. 
-    \item Ancho de banda ocupado por servicio de web: 15000 bps.
-    \item BW=10*10*15000=1.5 \ [Mbps].
+    \item Ancho de banda ocupado por servicio de web: 20000 bps.
+    \item BW=10*10*20000=1.5 \ [Mbps].
 \end{itemize}
 \textbf{Suma total del BW}
 \begin{equation}
@@ -831,7 +880,7 @@ del nivel de servicio.
 \end{itemize}
 \textbf{Dirección general}
 \begin{itemize}
-    \item 8.01 \ [Mbps]..
+    \item 8.01 \ [Mbps].
 \end{itemize}
 \textbf{Secretaría general}
 \begin{itemize}
@@ -864,40 +913,186 @@ $BW_{Total}=1.4172684[Gbps]$
 
 \newpage
 \section{Tributarios}
-\subsection{SONET/SDH}
-Las redes ópticas síncronas (SONET) y la jerarquía digital síncrona (SDH) son protocolos 
-de multiplexación estandarizados que transfieren múltiples flujos de bits digitales sobre 
-fibra óptica utilizando láseres o diodos emisores de luz (LED). Las velocidades de datos 
-más bajas también se pueden transferir a través de una interfaz eléctrica. El método fue 
-desarrollado para reemplazar el sistema de la Jerarquía Digital Plesiócrona (PDH) para 
-transportar grandes cantidades de llamadas telefónicas y tráfico de datos sobre la misma 
-fibra sin problemas de sincronización.
+\subsection{PDH}
+La jerarquía digital plesiócrona (PDH) es una tecnología de transmisión de redes de 
+telecomunicaciones diseñada para el transporte de grandes volúmenes de datos a través de 
+redes digitales de gran escala.
 \\ \\
-SONET y SDH, que son esencialmente los mismos, fueron diseñados originalmente para transportar 
-comunicaciones en modo circuito desde una variedad de fuentes diferentes, pero fueron diseñados
-principalmente para soportar voz en tiempo real, sin comprimir, con conmutación de circuitos 
-codificados en formato PCM. Esto significaba que cada circuito estaba operando a una velocidad 
-ligeramente diferente y con una fase diferente. SONET/SDH permitía el transporte simultáneo 
-de muchos circuitos diferentes de diferente origen dentro de un único protocolo de trama. 
-SONET/SDH no es en sí mismo un protocolo de comunicaciones, sino un protocolo de transporte.
+El diseño PDH permite el streaming de datos sin tener isócronos (relojes que funcionan a 
+la misma hora, perfectamente sincronizados) para sincronizar los intercambios de señales. 
+Los relojes PDH están funcionando muy cerca, pero no exactamente a tiempo uno del otro, 
+de modo que al multiplexar, los tiempos de llegada de la señal pueden diferir, ya que 
+las velocidades de transmisión están directamente vinculadas a la velocidad del reloj. 
+\\ \\
+PDH permite que cada flujo de una señal multiplexada se rellene con bits para compensar 
+las diferencias de tiempo, de modo que el flujo de datos original pueda reconstituirse 
+exactamente como se envió.
+\\ \\
+El término plesiócrono significa casi sincrónico. PDH soporta una velocidad de 
+transmisión de datos de 2048 Kbps. La velocidad de datos es controlada por un reloj en 
+el dispositivo que genera los datos. 
 
-\subsection{Diferencia con PDH}
-Las redes síncronas difieren de la Jerarquía Digital Plesiócrona (PDH) en que las velocidades 
-exactas que se utilizan para transportar los datos en SONET/SDH están estrechamente sincronizadas 
-a través de toda la red, utilizando relojes atómicos. Este sistema de sincronización permite que 
-las redes entre países funcionen sincrónicamente, reduciendo en gran medida la cantidad de 
-almacenamiento intermedio requerido entre los elementos de la red.
+\subsection{Jerarquía digital plesiócrona}
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|l|}
+    \hline
+    Jerarquía & Velocidad \\ \hline
+    E0 & 64 Kbps \\ \hline
+    E1 & 2.048 Mbps \\ \hline
+    E2 & 8.44 Mbps \\ \hline
+    E3 & 34.36 Mbps \\ \hline
+    E4 & 139.26 Mbps \\ \hline
+    E5 & 564.99 Mbps \\ \hline
+    \end{tabular}
+    \caption{Tabla de jerarquías.}
+    \label{my-label}
+\end{table}
+
+\newpage
+\subsection{División de tributarios}
+En esta propuesta se cuenta con dos redes LAN que proporcionarán la conectividad para 
+el funcionamiento de los servicios telemáticos.
 \\ \\
-Tanto SONET como SDH pueden utilizarse para encapsular estándares de transmisión digital 
-anteriores, como el estándar PDH, o pueden utilizarse para soportar directamente el modo de 
-transferencia asíncrono (ATM) o el llamado paquete a través de la red SONET/SDH (POS). Como tal, 
-es inexacto pensar en SDH o SONET como protocolos de comunicación en sí mismos; son contenedores 
-de transporte genéricos y polivalentes para el transporte de voz y datos. El formato básico de una 
-señal SONET/SDH le permite transportar muchos servicios diferentes en su contenedor virtual (VC), 
-ya que es flexible en cuanto al ancho de banda.
+\textbf{Red LAN piso 8}
+\begin{itemize}
+    \item \textbf{Servicio VoIP:} 11.25 Mbps
+    \item \textbf{Servicio de e-mail: }14.22 Mbps
+    \item \textbf{Servicio de chat: } 190 Mbps
+    \item \textbf{Servicio de web empresarial: } 16.35 Mbps
+    \item \textbf{Servicio de Videoconferencia: } 32.04 Mbps
+\end{itemize}
+\textbf{Ancho de banda total utilizado por el piso: }265.63*2 = 531.26 Mbps.
+\\ \\
+\textbf{PDH piso 8}
+\newline
+$531.26 \ Mbps \approx E5 = 564.99 \ Mbps$
+\\ \\
+\textbf{Red LAN piso 7}
+\begin{itemize}
+    \item \textbf{Servicio VoIP:} 4.70 Mbps
+    \item \textbf{Servicio de e-mail: } 19.15 Mbps
+    \item \textbf{Servicio de chat: } 382.5 Mbps
+    \item \textbf{Servicio de web empresarial: } 21.3 Mbps
+    \item \textbf{Servicio de Videoconferencia: } 16.02 Mbps
+\end{itemize}
+\textbf{Ancho de banda total utilizado por el piso: }443.67*2 = 887.34 Mbps.
+\\ \\
+\textbf{PDH piso 7}
+\newline
+$887.34 \ Mbps \approx E5 + 2E4+2E3 = 915.23 \ Mbps$
+\\ \\
 
 \newpage
 \section{Especificaciones de equipos de red}
+\subsection{Categorías de cables Ethernet}
+Una variedad de cables diferentes están disponibles para Ethernet y otras aplicaciones de 
+telecomunicaciones y redes. Estos cables que se describen por sus diferentes categorías.
+\begin{itemize}
+    \item \textbf{Cat-1: } Es la forma de cableado 
+    que se utiliza para el cableado telefónico estándar (POTS) o para RDSI.
+    \item \textbf{Cat-2: } Era la forma de cableado que se usaba para las redes de anillo 
+    simbólico de 4Mbit/s.
+    \item \textbf{Cat-3: } Se utiliza para redes de datos que emplean frecuencias 
+    de hasta 16 MHz. Era popular para el uso con redes Ethernet de 10 Mbps (100Base-T), pero ahora ha sido reemplazado por cable Cat-5.
+    \item \textbf{Cat-4: } Puede utilizarse para redes que transportan frecuencias de hasta 
+    20 MHz. Se usaba a menudo en redes de anillo token de 16Mbps.
+    \item \textbf{Cat-5: } Es el cable que se utiliza ampliamente para redes 100Base-T y 1000Base-T, 
+    ya que proporciona un rendimiento que permite datos a 100 Mbps y algo más (125 MHz para 1000Base-T) Ethernet. El cable Cat 5 está obsoleto y, por lo tanto, no se recomienda para instalaciones nuevas.
+    \item \textbf{Cat-5e: } Tiene una especificación de frecuencia ligeramente superior a la del cable Cat-5, ya que el rendimiento se extiende hasta 125 Mbps. Se puede utilizar para 100Base-T y 1000Base-T 
+    (Gigabit Ethernet). Cat 5e o mejorada es una forma de cable Cat 5 fabricado para especificaciones más altas, aunque físicamente es igual a Cat 5. Se prueba con una especificación más alta.
+    \item \textbf{Cat-6: } proporciona una mejora significativa en el rendimiento en comparación con 
+    Cat5 y Cat 5e. Durante la fabricación, los cables de Cat 6 están más enrollados que los de Cat 5 o Cat 5e y a menudo tienen 
+    una lámina exterior o un apantallamiento trenzado. El blindaje protege los pares trenzados de cables dentro del cable Ethernet, 
+    ayudando a evitar interferencias de diafonía y ruido. Los cables Cat-6 pueden soportar técnicamente velocidades de hasta 10 Gbps, pero sólo pueden hacerlo hasta 55 metros.
+    \item \textbf{Cat-6a: } La "a" en Cat 6a significa "Aumentado". Los cables Cat 6a son 
+    capaces de soportar el doble del ancho de banda máximo, y son capaces de mantener velocidades 
+    de transmisión más altas sobre longitudes de cable más largas. Los cables Cat 6a utilizan 
+    apantallamiento que es suficiente para eliminar la diafonía. Sin embargo, esto los hace menos 
+    flexibles que el cable Cat 6.
+    \item \textbf{Cat-7: } Se compone de cuatro pares blindados individualmente dentro de 
+    un escudo general. Está dirigido a aplicaciones en las que se requiere una transmisión de frecuencias de hasta 600 Mbps.
+    \item \textbf{Cat-8: } Estos cables están todavía en desarrollo, pero serán lanzados en un futuro previsible para 
+    proporcionar nuevas mejoras en la velocidad y el rendimiento general.
+\end{itemize}
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{1.0\textwidth}{|l|l|l|l|l|}
+    \hline
+    Tecnología & Velocidad de transmisión & Tipo de cable & Distancia máxima \\ \hline
+    10Base2 & 10 Mbit/s & Coaxial & 185 m \\ \hline
+    10BaseT & 10 Mbit/s & Par Trenzado & 100 m \\ \hline
+    10BaseF & 10 Mbit/s & Fibra óptica & 2000 m \\ \hline
+    100BaseT4 & 100 Mbit/s & Par Trenzado (categoría 3UTP) & 100 m \\ \hline
+    100BaseTX & 100 Mbit/s & Par Trenzado (categoría 5UTP) & 100 m \\ \hline
+    100BaseFX & 100 Mbit/s & Fibra óptica & 2000 m \\ \hline
+    1000BaseT & 1000 Mbit/s & (categoría 5e ó 6UTP ) & 100 m \\ \hline
+    1000BaseSX & 1000 Mbit/s & Fibra óptica (multimodo) & 550 m \\ \hline
+    1000BaseLX & 1000 Mbit/s & Fibra óptica (monomodo) & 5000 m \\ \hline
+    \end{tabularx}
+    \caption{Tecnologías Ethernet.}
+    \label{my-label}
+\end{table}
+\subsection{Swicthes}
+Para los piso 7 y 8 se recomienda el siguiente switch. Cisco Meraki MS120-48. 
+Esto con base al hecho de que por parte del piso 8 se necesita un equipo robusto y confiable 
+a pesar de que el ancho de bando requerido es menor que el del piso 7.
+\\ \\
+Por otra parte mientras que el grado de servicio para el piso 7 es menor, existe un mayor 
+numero de usuarios que estarán conectados a la red. Así es que se propone la adquisición de estos 
+equipos para la construcción de la red.
+\\ \\
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.6]{imagenes/sw1.PNG}
+    \caption{Switch propuesto.}
+\end{figure}
+\\ 
+\textbf{Aspectos destacados del producto}
+\begin{itemize} 
+    \item Puertos de conmutador.
+         \begin{itemize} 
+            \item Modelos de puerto 48 * 1G.
+            \item 4 * 1G SFP uplinks.
+         \end{itemize}
+    \item Potencia/PoE.
+        \begin{itemize}
+            \item Modelo sin motor.
+            \item MS120-48LP incluye 370W.
+            \item MS120-48FP incluye 740W.
+            \item Hasta 30 W por puerto.
+        \end{itemize}
+    \item Plataforma de hardware.
+        \begin{itemize}
+            \item Plataforma fiable con soporte Meraki 24/7.
+            \item Montaje en rack 1RU.
+            \item Modelo de bajo ruido, sin ventilador disponible.
+            \item QoS de voz y vídeo.
+            \item Tejido de interruptor sin bloqueo.
+        \end{itemize}
+    \item Gestión de la nube.
+        \begin{itemize} 
+            \item Alertas por correo electrónico para la gestión del conmutador.
+            \item  Herramientas remotas de resolución de problemas.
+            \item Administrar puertos desde un panel de control basado en GUI.
+            \item Aprovisionamiento sin contacto.
+            \item Estadísticas de uso por puerto y por cliente.
+            \item Actualizaciones de firmware seguras y programadas por el usuario.
+        \end{itemize}
+    \item Capacidades de conmutación.
+        \begin{itemize} 
+            \item Relé DHCP.
+            \item Autenticación 802.1X.
+            \item DHCP Snooping.
+            \item Mejoras en STP.
+            \item ACLs IPv4 e IPv6.
+        \end{itemize}
+\end{itemize}
+
+\newpage
+\subsection{Routers}
+
+\subsection{Gateways}
 
 \newpage
 \section{Conectividad enlace ATM}
@@ -914,7 +1109,7 @@ ya que es flexible en cuanto al ancho de banda.
 \begin{figure}[ht]
     \centering
     \includegraphics[width=.9\textwidth,angle=90]{imagenes/Lan7.png}
-    \caption{Diseño propuesto de la red LAN para el piso 8.}
+    \caption{Diseño propuesto de la red LAN para el piso 7.}
 \end{figure}
 
 \newpage

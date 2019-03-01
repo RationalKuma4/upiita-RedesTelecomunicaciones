@@ -25,18 +25,24 @@
 \contentsline {subsection}{\numberline {7.4}RTCP}{16}{subsection.7.4}% 
 \contentsline {subsection}{\numberline {7.5}PPP}{16}{subsection.7.5}% 
 \contentsline {subsection}{\numberline {7.6}VAD}{17}{subsection.7.6}% 
-\contentsline {section}{\numberline {8}Servicios Schedule VF}{18}{section.8}% 
-\contentsline {section}{\numberline {9}Gestor de servidor}{18}{section.9}% 
-\contentsline {section}{\numberline {10}BW calculado}{19}{section.10}% 
-\contentsline {subsection}{\numberline {10.1}Proceso y operaciones para calcular el ancho de banda para VoIP}{20}{subsection.10.1}% 
-\contentsline {subsection}{\numberline {10.2}Proceso y operaciones para calcular el ancho de banda para e-mail}{24}{subsection.10.2}% 
-\contentsline {subsection}{\numberline {10.3}Proceso y operaciones para calcular el ancho de banda para chat}{26}{subsection.10.3}% 
-\contentsline {subsection}{\numberline {10.4}Proceso y operaciones para calcular el ancho de la web empresarial}{28}{subsection.10.4}% 
-\contentsline {subsection}{\numberline {10.5}Proceso y operaciones para calcular el ancho de banda para video conferencia}{30}{subsection.10.5}% 
-\contentsline {subsection}{\numberline {10.6}Suma total del ancho de banda de los servicios telematicos}{30}{subsection.10.6}% 
-\contentsline {section}{\numberline {11}Tributarios}{31}{section.11}% 
-\contentsline {subsection}{\numberline {11.1}SONET/SDH}{31}{subsection.11.1}% 
-\contentsline {subsection}{\numberline {11.2}Diferencia con PDH}{31}{subsection.11.2}% 
-\contentsline {section}{\numberline {12}Especificaciones de equipos de red}{32}{section.12}% 
-\contentsline {section}{\numberline {13}Conectividad enlace ATM}{33}{section.13}% 
-\contentsline {section}{\numberline {14}Arquitectura de red (Intra-ATM)}{34}{section.14}% 
+\contentsline {subsection}{\numberline {7.7}MPLS}{17}{subsection.7.7}% 
+\contentsline {section}{\numberline {8}Servicios Schedule VF}{19}{section.8}% 
+\contentsline {section}{\numberline {9}Gestor de servidor}{19}{section.9}% 
+\contentsline {section}{\numberline {10}BW calculado}{20}{section.10}% 
+\contentsline {subsection}{\numberline {10.1}Proceso y operaciones para calcular el ancho de banda para VoIP}{21}{subsection.10.1}% 
+\contentsline {subsection}{\numberline {10.2}Proceso y operaciones para calcular el ancho de banda para e-mail}{25}{subsection.10.2}% 
+\contentsline {subsection}{\numberline {10.3}Proceso y operaciones para calcular el ancho de banda para chat}{27}{subsection.10.3}% 
+\contentsline {subsection}{\numberline {10.4}Proceso y operaciones para calcular el ancho de la web empresarial}{29}{subsection.10.4}% 
+\contentsline {subsection}{\numberline {10.5}Proceso y operaciones para calcular el ancho de banda para video conferencia}{31}{subsection.10.5}% 
+\contentsline {subsection}{\numberline {10.6}Suma total del ancho de banda de los servicios telematicos}{31}{subsection.10.6}% 
+\contentsline {section}{\numberline {11}Tributarios}{32}{section.11}% 
+\contentsline {subsection}{\numberline {11.1}PDH}{32}{subsection.11.1}% 
+\contentsline {subsection}{\numberline {11.2}Jerarqu\IeC {\'\i }a digital plesi\IeC {\'o}crona}{32}{subsection.11.2}% 
+\contentsline {subsection}{\numberline {11.3}Divisi\IeC {\'o}n de tributarios}{33}{subsection.11.3}% 
+\contentsline {section}{\numberline {12}Especificaciones de equipos de red}{34}{section.12}% 
+\contentsline {subsection}{\numberline {12.1}Categor\IeC {\'\i }as de cables Ethernet}{34}{subsection.12.1}% 
+\contentsline {subsection}{\numberline {12.2}Swicthes}{35}{subsection.12.2}% 
+\contentsline {subsection}{\numberline {12.3}Routers}{37}{subsection.12.3}% 
+\contentsline {subsection}{\numberline {12.4}Gateways}{37}{subsection.12.4}% 
+\contentsline {section}{\numberline {13}Conectividad enlace ATM}{38}{section.13}% 
+\contentsline {section}{\numberline {14}Arquitectura de red (Intra-ATM)}{39}{section.14}% 

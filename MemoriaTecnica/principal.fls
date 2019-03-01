@@ -83,6 +83,10 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
 INPUT c:/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
 INPUT c:/texlive/2018/texmf-dist/tex/latex/capt-of/capt-of.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/capt-of/capt-of.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -211,6 +215,10 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT c:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes/tablaerlang.PNG
 INPUT c:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes/tablaerlang.PNG
 INPUT c:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes/tablaerlang.PNG
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
+INPUT c:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes/sw1.PNG
+INPUT c:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes/sw1.PNG
+INPUT c:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes/sw1.PNG
 INPUT c:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes/Lan8.png
 INPUT c:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes/Lan8.png
 INPUT c:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes/Lan8.png
@@ -235,6 +243,7 @@ INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr6.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
