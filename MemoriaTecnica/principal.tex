@@ -30,9 +30,7 @@
 \graphicspath{ {C:/Users/Anselmo-PC/Documents/GitHub/upiita-RedesTelecomunicaciones/MemoriaTecnica/imagenes} }
 
 \begin{document}
-
 \includepdf[pages={1}]{portada}
-
 \newpage
 \tableofcontents
 \listoffigures
@@ -130,7 +128,6 @@ De producción.
 
 \newpage
 \section{Localización de los puntos de enrutamiento}
-
 \subsection{Corporativo}
 Calle Lago Zurich 245, Amp Granada, 11529 Ciudad de México, CDMX.
 \\ Coordenadas: 19.44 N, 99.20 W.
@@ -168,15 +165,15 @@ Corporativo ubicado en plaza Carso, en la torre Frisco/Zurich, piso 7 y 8.
 \begin{figure}[ht]
     \centering
     \includegraphics[width=.8\textwidth]{imagenes/organigrama.png}
-    \caption{Organigrama.}
+    \caption{Organigrama. \cite{costenaorganigrama}}
 \end{figure}
 
 \newpage
 \section{Detalle arquitectónico}
 La Torre de oficinas Lago Zurich está construida en un área de 2130 $m^2$, cuenta con 19 pisos, 
 de los cuales 17 se destinan al servicio de oficinas y dos al servicio comercial. Su diseño 
-arquitectónico es de tipo moderno. El total de construcción es 36210 $m^2$. El corporativo hace 
-uso de dos pisos en los cuales se distribuyen el total de empleados de la organización con un detalle similar 
+arquitectónico es de tipo moderno. El total de construcción es 36210 $m^2$. \cite{deatllearq} 
+El corporativo hace uso de dos pisos en los cuales se distribuyen el total de empleados de la organización con un detalle similar 
 al siguiente.
 \begin{figure}[ht]
     \centering
@@ -195,20 +192,20 @@ comunicación electrónica.
 Los sistemas de correo electrónico se basan en un modelo de almacenamiento y reenvío, de 
 modo que no es necesario que ambos extremos se encuentren conectados simultáneamente. 
 Para ello se emplea un servidor de correo que hace las funciones de intermediario, guardando 
-temporalmente los mensajes antes de enviarse a sus destinatarios. 
+temporalmente los mensajes antes de enviarse a sus destinatarios. \cite{email}
 
 \subsection{Video conferencias}
 Videoconferencia o videollamada es la comunicación simultánea bidireccional de audio y vídeo, 
 que permite mantener reuniones con grupos de personas situadas en lugares alejados entre sí. 
 Adicionalmente, pueden ofrecerse facilidades telemáticas o de otro tipo como el intercambio 
-de gráficos, imágenes fijas, transmisión de archivos desde el ordenador.
+de gráficos, imágenes fijas, transmisión de archivos desde el ordenador. \cite{videoConferencia}
 
 \subsection{Voice over IP}
 Voz sobre protocolo de internet o Voz por protocolo de internet, también llamado voz sobre IP, 
 voz IP, vozIP o VoIP, es un conjunto de recursos que hacen posible que la señal de voz viaje 
 a través de Internet empleando el protocolo IP. Esto significa que se envía la señal de voz 
 en forma digital, en paquetes de datos, en lugar de enviarla en forma analógica a través de 
-circuitos utilizables solo por telefonía convencional, como las redes PSTN.
+circuitos utilizables solo por telefonía convencional, como las redes PSTN. \cite{VoIP}
 \\ \\ 
 El tráfico de voz sobre IP puede circular por cualquier red IP, incluyendo aquellas conectadas 
 a Internet, como por ejemplo las LAN.
@@ -227,7 +224,7 @@ sitios individuales.
 No debemos confundir sitio web con página web; esta última es solo un archivo HTML, una 
 unidad HTML, que forma parte de algún sitio web. Al ingresar una dirección web, siempre 
 se está haciendo referencia a un sitio web, el que tiene una página HTML inicial, que es 
-generalmente la primera que se visualiza. 
+generalmente la primera que se visualiza. \cite{web}
 
 \subsection{FTP}
 El FTP es un protocolo de red: un conjunto de reglas que establecen cómo deben comunicarse 
@@ -238,7 +235,7 @@ TCP/IP que se basa en la arquitectura cliente-servidor.
 El equipo cliente, en este marco, se conecta al servidor mediante el FTP con el objetivo 
 de enviar o descargar archivos. Este protocolo busca maximizar la velocidad, sin apelar 
 al cifrado para proteger la información. Por eso muchas veces se recurre a aplicaciones 
-que posibilitan la transferencia del material, pero con el tráfico cifrado.
+que posibilitan la transferencia del material, pero con el tráfico cifrado. \cite{ftp}
 
 \subsection{Base de datos}
 Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados 
@@ -250,7 +247,7 @@ se ofrece un amplio rango de soluciones al problema del almacenamiento de datos.
 Existen programas denominados sistemas gestores de bases de datos, abreviado SGBD (del 
 inglés Database Management System o DBMS), que permiten almacenar y posteriormente acceder 
 a los datos de forma rápida y estructurada. Las propiedades de estos DBMS, así como su 
-utilización y administración, se estudian dentro del ámbito de la informática.
+utilización y administración, se estudian dentro del ámbito de la informática. \cite{basedatos}
 
 \newpage
 \section{Protocolos y codec VoIP}
@@ -273,7 +270,7 @@ El Protocolo Internet proporciona un servicio de distribución de paquetes de in
 orientado a no conexión de manera no fiable. La orientación a no conexión significa que los 
 paquetes de información, que será emitido a la red, son tratados independientemente, pudiendo 
 viajar por diferentes trayectorias para llegar a su destino. El término no fiable significa 
-más que nada que no se garantiza la recepción del paquete.
+más que nada que no se garantiza la recepción del paquete. \cite{ip}
 
 \subsection{Protocolo UDP}
 El grupo de protocolos de Internet también maneja un protocolo de transporte sin conexiones, 
@@ -288,7 +285,7 @@ cabecera se muestra a continuación. Los dos puertos sirven para lo mismo que en
 identificar los puntos terminales de las máquinas origen y destino. El campo de longitud UDP 
 incluye la cabecera de 8 bytes y los datos. La suma de comprobación UDP incluye la misma 
 pseudocabecera de formato, la cabecera UDP, y los datos, rellenados con una cantidad par 
-de bytes de ser necesario.
+de bytes de ser necesario. \cite{udp}
 
 \subsection{Protocolo TCP/IP}
 TCP/IP es el nombre de un protocolo de conexión de redes. Un protocolo es un conjunto de 
@@ -308,7 +305,7 @@ rutas a los mensajes o gestionar caídas de la red.
 Una red TCP/IP transfiere datos mediante el ensamblaje de bloque de datos en paquetes. Cada 
 paquete comienza con una cabecera que contiene información de control, tal como la dirección 
 del destino, seguida de los datos. Cuando se envía un archivo a través de una red TCP/IP, 
-su contenido se envía utilizando una serie de paquetes diferentes.
+su contenido se envía utilizando una serie de paquetes diferentes. \cite{tcp}
 
 \subsection{RTCP}
 RTP es la abreviación de Real-time Transport Protocol, por su denominación en inglés. Es un 
@@ -323,7 +320,7 @@ el manejo de señalización o establecimiento de llamada existe el protocolo SIP
 Dentro del estándar RFC 3550 se define un protocolo adicional para el envío de datos de 
 control y datos de mediciones realizadas durante la transmisión. Se conoce como RTCP RTP 
 Control Protocol. los paquetes RTCP se envían periódicamente dentro de la secuencia de 
-paquetes RTP.
+paquetes RTP. \cite{rtcp}
 
 \subsection{PPP}
 PPP se utiliza comúnmente como protocolo de capa de enlace de datos para la conexión a través 
@@ -339,7 +336,7 @@ través de líneas telefónicas por módem.
 El RFC 2516 describe el Protocolo Punto a Punto sobre Ethernet (PPPoE) como un método para 
 transmitir PPP sobre Ethernet que a veces se utiliza con DSL. El RFC 2364 describe el 
 Protocolo Punto a Punto sobre ATM (PPPoA) como un método para transmitir PPP sobre ATM 
-Adaptation Layer 5 (AAL5), que es también una alternativa común a PPPoE utilizado con DSL.
+Adaptation Layer 5 (AAL5), que es también una alternativa común a PPPoE utilizado con DSL.\cite{ppp}
 \\ \\
 PPP es un protocolo estratificado que tiene tres componentes:
 \begin{itemize}
@@ -364,7 +361,7 @@ o a una pasarela. El estándar universal para voz digitalizada, 64 Kbps, es una 
 bits constante, ya sea que el hablante esté hablando activamente, esté haciendo una pausa 
 entre pensamientos o esté totalmente en silencio. Sin el ruido de ralentí que da la ilusión 
 de un flujo de transmisión constante durante la supresión del silencio, es probable que el 
-oyente piense que la línea se ha cortado.
+oyente piense que la línea se ha cortado. \cite{vad}
 
 \subsection{MPLS}
 Conmutación de etiquetas multiprotocolo (MPLS)
@@ -390,7 +387,7 @@ subsiguientes utilizando una etiqueta en la cabecera del paquete.
 Mientras que el hardware del router ha mejorado exponencialmente desde que se desarrolló 
 MPLS, disminuyendo un poco su importancia como una tecnología de gestión de tráfico más 
 eficiente, sigue siendo importante y popular debido a sus otros beneficios, en particular 
-la seguridad, la flexibilidad y la ingeniería de tráfico.
+la seguridad, la flexibilidad y la ingeniería de tráfico. 
 \\ \\
 \textbf{Componentes de MPLS}
 \newline
@@ -410,7 +407,7 @@ Las etiquetas MPLS constan de cuatro partes:
 
 Los trayectos, que se denominan trayectos con conmutación de etiquetas (LSP), 
 permiten a los proveedores de servicios decidir de antemano la mejor manera de 
-que determinados tipos de tráfico fluyan dentro de una red privada o pública.
+que determinados tipos de tráfico fluyan dentro de una red privada o pública. \cite{mpls}
 
 \newpage
 \section{Servicios Schedule VF}
@@ -436,6 +433,68 @@ que determinados tipos de tráfico fluyan dentro de una red privada o pública.
 \end{table}
 
 \section{Gestor de servidor}
+Para el gestor del servidor se propone el siguiente modelo: Servidor HPE ProLiant DL580 Gen10.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.8]{imagenes/servidor.PNG}
+    \caption{Muestra del servidor.}
+\end{figure}
+\\ \\
+Enseguida se muestran sus características sobresalientes. \cite{servidorhp}
+\\ \\
+\textbf{Especificaciones técnicas}
+\begin{itemize} 
+    \item Núcleo de procesador disponible.
+         \begin{itemize} 
+            \item 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6 o 4, por procesador, según 
+            el modelo.
+         \end{itemize}
+    \item Caché de procesador.
+        \begin{itemize}
+            \item 13,75 MB L3, 16,5 MB L3, 19,25 MB L3, 22 MB L3, 24,75 MB L3, 27,5 MB L3, 
+            30,25 MB L3, 33 MB L3, 35,75 MB L3 o 38,5 MB L3, por procesador, según el modelo.
+        \end{itemize}
+    \item Procesador.
+        \begin{itemize}
+            \item Procesadores escalables Intel® Xeon®.
+        \end{itemize}
+    \item Número de procesadores.
+        \begin{itemize} 
+            \item 4, 3, 2 o 1.
+        \end{itemize}
+    \item Velocidad del procesador.
+        \begin{itemize} 
+            \item 3.6GHz, máximo según el procesador.
+        \end{itemize}
+    \item Memoria máxima.
+        \begin{itemize} 
+            \item 6 TB máximo.
+        \end{itemize}
+    \item Ranuras de memoria.
+        \begin{itemize} 
+            \item Máximo 48 ranuras DIMM.
+        \end{itemize}
+    \item Tipo de memoria.
+        \begin{itemize} 
+            \item HPE DDR4 SmartMemory.
+        \end{itemize}
+    \item Tipo de fuente de alimentación.
+        \begin{itemize} 
+            \item 4 fuentes de alimentación de ranura flexible HPE, máximo según el modelo.
+        \end{itemize}
+    \item Ranuras de expansión.
+        \begin{itemize} 
+            \item 16 máximo, para obtener una descripción detallada, consulte las especificaciones rápidas.
+        \end{itemize}
+    \item Controlador de red.
+        \begin{itemize} 
+            \item FlexibleLOM opcional.
+        \end{itemize}
+    \item Controlador de almacenamiento.
+        \begin{itemize} 
+            \item Controladoras HPE Smart Array S100i o HPE Smart Array, según el modelo.
+        \end{itemize}
+\end{itemize}
 
 \newpage
 \section{BW calculado}
@@ -930,7 +989,7 @@ exactamente como se envió.
 \\ \\
 El término plesiócrono significa casi sincrónico. PDH soporta una velocidad de 
 transmisión de datos de 2048 Kbps. La velocidad de datos es controlada por un reloj en 
-el dispositivo que genera los datos. 
+el dispositivo que genera los datos. \cite{pdh}
 
 \subsection{Jerarquía digital plesiócrona}
 \begin{table}[ht]
@@ -1030,17 +1089,17 @@ telecomunicaciones y redes. Estos cables que se describen por sus diferentes cat
     1000BaseSX & 1000 Mbit/s & Fibra óptica (multimodo) & 550 m \\ \hline
     1000BaseLX & 1000 Mbit/s & Fibra óptica (monomodo) & 5000 m \\ \hline
     \end{tabularx}
-    \caption{Tecnologías Ethernet.}
+    \caption{Tecnologías Ethernet. \cite{ethernet}}
     \label{my-label}
 \end{table}
 \subsection{Swicthes}
 Para los piso 7 y 8 se recomienda el siguiente switch. Cisco Meraki MS120-48. 
 Esto con base al hecho de que por parte del piso 8 se necesita un equipo robusto y confiable 
-a pesar de que el ancho de bando requerido es menor que el del piso 7.
+a pesar de que el ancho de banda requerido es menor que el del piso 7.
 \\ \\
 Por otra parte mientras que el grado de servicio para el piso 7 es menor, existe un mayor 
 numero de usuarios que estarán conectados a la red. Así es que se propone la adquisición de estos 
-equipos para la construcción de la red.
+equipos para la construcción de la red. \cite{swicthes}
 \\ \\
 \begin{figure}[ht]
     \centering
@@ -1091,11 +1150,201 @@ equipos para la construcción de la red.
 
 \newpage
 \subsection{Routers}
+El siguiente router se elegío para proporcionar acceso inalambrico en las instalaciones del 
+piso 8. Las preincipales razones son: características de seguridad para los usuarios de la red y 
+un buen desempeño en entornos de alta densidad. \cite{routers}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.9\textwidth]{imagenes/router.PNG}
+    \caption{Router propuesto.}
+\end{figure}
+\\ 
+\textbf{Aspectos destacados del producto}
+\begin{itemize} 
+    \item Casos de uso ideales.
+         \begin{itemize} 
+            \item LAN inalámbricas de rendimiento crítico.
+            \item Entornos de alta densidad.
+         \end{itemize}
+    \item Características del hardware.
+        \begin{itemize}
+            \item 3 radios: 2,4 y 5 GHz, WIDS/WIPS de doble banda.
+            \item 3-stream 802.11ac Wave 2 y 802.11n, hasta 1.9 Gbps.
+            \item Puerto Gigabit Ethernet.
+            \item PoE: Funcionalidad completa bajo 802.3at (compatible con 802.3af).
+            \item Adaptador de CA disponible
+        \end{itemize}
+    \item Gestión de la nube.
+        \begin{itemize}
+            \item Visibilidad y control de toda la red.
+            \item Autoabastecimiento para un despliegue rápido.
+            \item Modelo de bajo ruido, sin ventilador disponible.
+            \item Informes automáticos.
+            \item Actualizaciones de firmware sin fisuras.
+        \end{itemize}
+    \item Gestión de la nube.
+        \begin{itemize} 
+            \item Alertas por correo electrónico para la gestión del conmutador.
+            \item  Herramientas remotas de resolución de problemas.
+            \item Administrar puertos desde un panel de control basado en GUI.
+            \item Aprovisionamiento sin contacto.
+            \item Estadísticas de uso por puerto y por cliente.
+            \item Actualizaciones de firmware seguras y programadas por el usuario.
+        \end{itemize}
+    \item Seguridad de la empresa.
+        \begin{itemize} 
+            \item Integración con 802.1X y Active Directory nativo.
+            \item Autenticación 802.1X.
+            \item Air Marshal: WIPS en tiempo real con análisis forense.
+            \item Cortafuegos de capa 3-7 con asignación de estados.
+            \item Políticas de grupo basadas en identidad.
+            \item Escaneo antivirus integrado (NAC)
+        \end{itemize}
+    \item Optimización de RF.
+        \begin{itemize} 
+            \item Radios de doble concurrencia con soporte MU-MIMO.
+            \item Radios optimizadas para el rendimiento tasa-vs-rango.
+            \item Tercera radio dedicada a la seguridad y a la gestión de la radiofrecuencia.
+            \item Vista de espectro de RF en tiempo real incorporada.
+            \item Optimización automática de RF basada en la nube.
+        \end{itemize}
+    \item Modelado de tráfico de Capa 7.
+        \begin{itemize} 
+            \item Clasifica cientos de aplicaciones.
+            \item Crear límites de ancho de banda por aplicación.
+            \item Priorizar las aplicaciones de productividad.
+            \item Restringir o bloquear el tráfico recreativo.
+        \end{itemize}
+    \item Análisis de ubicación de presencia.
+        \begin{itemize} 
+            \item Medir la tasa de captura de visitantes, la duración de las visitas y la tasa de repetición de visitas.
+            \item Medir las tendencias de los visitantes a lo largo del tiempo y comparar el rendimiento en diferentes ubicaciones.
+        \end{itemize}
+    \item Gestión de dispositivos
+        \begin{itemize} 
+            \item Cree reglas de firewall específicas para cada dispositivo.
+            \item Supervisar y realizar un seguimiento del inventario de dispositivos.
+            \item Implemente aplicaciones y aplique la configuración de seguridad.
+        \end{itemize}
+\end{itemize}
 
+El siguiente router se elegío para proporcionar acceso inalambrico en las instalaciones del 
+piso 7. La principal razón es su alta capacidad de respuesta en ambientes de alta densidad de 
+trafíco y dado que el piso 7 exige un mayor ancho de banda que el piso 8. \cite{routers2}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.9\textwidth]{imagenes/router2.PNG}
+    \caption{Router propuesto.}
+\end{figure}
+\\ 
+\textbf{Aspectos destacados del producto}
+\begin{itemize} 
+    \item Casos de uso ideales.
+         \begin{itemize} 
+            \item LAN inalámbricas de rendimiento crítico.
+            \item Entornos de alta densidad.
+         \end{itemize}
+    \item Características del hardware.
+        \begin{itemize}
+            \item 4 radios: 2,4 y 5 GHz, doble banda.
+            \item WIDS/WIPS y Bluetooth de baja energía (BLE).
+            \item 4-stream 802.11ac Wave 2, hasta 2.5 Gbps.
+            \item 1 * puerto Gigabit Ethernet.
+            \item 1 * 2.5 Gbps Puerto Ethernet Multigigabit.
+            \item PoE: 802.3at.
+            \item Adaptador de CA disponible.
+        \end{itemize}
+    \item Plataforma de hardware.
+        \begin{itemize}
+            \item Plataforma fiable con soporte Meraki 24/7.
+            \item Montaje en rack 1RU.
+            \item Modelo de bajo ruido, sin ventilador disponible.
+            \item QoS de voz y vídeo.
+            \item Tejido de interruptor sin bloqueo.
+        \end{itemize}
+    \item Gestión de la nube.
+        \begin{itemize} 
+            \item Visibilidad y control de toda la red.
+            \item Autoabastecimiento para un despliegue rápido.
+            \item Administrar puertos desde un panel de control basado en GUI.
+            \item Actualizaciones de firmware sin fisuras.
+        \end{itemize}
+        \item Seguridad de la empresa.
+        \begin{itemize} 
+            \item Integración con 802.1X y Active Directory nativo.
+            \item Autenticación 802.1X.
+            \item Air Marshal: WIPS en tiempo real con análisis forense.
+            \item Cortafuegos de capa 3-7 con asignación de estados.
+            \item Políticas de grupo basadas en identidad.
+            \item Escaneo antivirus integrado (NAC)
+        \end{itemize}
+    \item Acceso para invitados.
+        \begin{itemize} 
+            \item Acceso seguro para invitados con un solo clic.
+            \item Cortafuegos de aislamiento de invitados.
+            \item Páginas de bienvenida personalizables.
+        \end{itemize}
+\end{itemize}
+
+\newpage
 \subsection{Gateways}
+En la siguiente sección se presenta el Gateway propuesto para el corporativo La Costeña.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.5\textwidth]{imagenes/gateway.PNG}
+    \caption{Gateway Cisco VG350.}
+\end{figure}
+
+El gateway analógico de alta densidad Cisco VG350 es un gateway telefónico analógico 
+basado en software Cisco IOS ®. Conecta teléfonos analógicos, máquinas de fax, módems y 
+altavoces a un sistema de voz empresarial basado en Cisco Unified Communications Manager 
+(UCM). La estrecha integración con el sistema telefónico basado en IP es ventajosa para 
+aumentar la capacidad de gestión, la escalabilidad y la rentabilidad. Las empresas también 
+pueden utilizar el Cisco VG350 con Cisco Unified Communications Manager Express para 
+aumentar de forma efectiva un entorno de router de servicios integrados (ISR). 
+Cualquiera de los dos entornos de topología soportará las necesidades empresariales de 
+alta concentración de puertos de voz analógicos para llamadas por módem, llamadas por 
+fax y servicios suplementarios analógicos.
+\\ \\
+El Cisco VG350 ofrece la capacidad de gestión del software Cisco IOS en líneas telefónicas 
+analógicas para que puedan utilizarse como extensiones del sistema Cisco Unified 
+Communications Manager o Cisco Unified Communications Manager Express. El Cisco VG350 
+se ofrece en forma de chasis para montaje en bastidor de 19 pulgadas. \cite{gateways}
+\\ \\
+\textbf{Protocolos compatibles}
+\begin{itemize} 
+    \item PCCC.
+    \item H.323v4.
+    \item MGCP.
+    \item SIP.
+    \item Protocolo de transporte en tiempo real (RTP).
+    \item Protocolo de transporte seguro en tiempo real (SRTP).
+    \item Protocolo de transferencia de archivos triviales (TFTP).
+    \item Servidor HTTP.
+    \item SNMP.
+    \item Telnet.
+    \item Protocolo de configuración dinámica de host (DHCP).
+    \item Sistema de nombres de dominio (DNS).
+    \item Cisco Unified Communications Manager o Cisco Unified 
+    Communications Manager Compatibilidad con redundancia Express 
+    mediante el protocolo Hot Standby Router Protocol (HSRP)
+    \item Supervivencia de llamadas: conmutación por error MGCP 
+    a una conexión H.323 al enrutador SRST.
+    \item T.38 Relé de fax y paso de módem.
+    \item Compatibilidad con codificadores/decodificadores (codecs), G.711 y G.729a.
+    \item RADIUS y TACACS+ para Telnet y autorización.
+\end{itemize}
+Como se menciona en la descripción del producto, una característica a resaltar es la capacidad 
+de soportar comunicaciones analógicas. Esto brinda la oportunidad de tener comunicaciones redundantes 
+en caso de que se presete alguna falla en los medios digitales.
 
 \newpage
 \section{Conectividad enlace ATM}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.9\textwidth]{imagenes/atmdia.png}
+    \caption{Enlace ATM.}
+\end{figure}
 
 \newpage
 \section{Arquitectura de red (Intra-ATM)}
@@ -1118,16 +1367,73 @@ equipos para la construcción de la red.
     lacostena.com.mx, "Sobre nosotros". 
     [Online] Disponible lacostena.com.mx/es/sobre-nosotros.
     [Ultimo Acceso: 22/02/2019]
+
+    \bibitem{costenaorganigrama}
+    $es.scribd.com/presentation/314767015/Empresa-La-Costena$
+
+    \bibitem{deatllearq}
+    $edemx.com/citymex/rascacielos/Carso_zurich.html$
+
+    \bibitem{email}
+    $whatis.techtarget.com/definition/e-mail-electronic-mail-or-email$
      
-    \bibitem{einstein} 
-    Albert Einstein. 
-    \textit{Zur Elektrodynamik bewegter K{\"o}rper}. (German) 
-    [\textit{On the electrodynamics of moving bodies}]. 
-    Annalen der Physik, 322(10):891–921, 1905.
-     
-    \bibitem{knuthwebsite} 
-    Knuth: Computers and Typesetting,
-    \\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+    \bibitem{videoConferencia}
+    $searchunifiedcommunications.techtarget.com/definition/video-conference$
+
+    \bibitem{VoIP}
+    $searchdatacenter.techtarget.com/es/definicion/Voz-sobre-IP-VoIP$
+
+    \bibitem{web}
+    $definicion.de/sitio-web/$
+
+    \bibitem{ftp}
+    $tools.ietf.org/html/rfc959$
+
+    \bibitem{basedatos}
+    $searchsqlserver.techtarget.com/definition/database$
+
+    \bibitem{ip}
+    $techopedia.com/definition/5366/internet-protocol-ip$
+
+    \bibitem{udp}
+    $searchnetworking.techtarget.com/definition/UDP-User-Datagram-Protocol$
+
+    \bibitem{tcp}
+    $techopedia.com/definition/5773/transmission-control-protocol-tcp$
+
+    \bibitem{rtcp}
+    $techopedia.com/definition/25807/rtp-control-protocol-rtcp$
+
+    \bibitem{ppp}
+    $cisco.com/c/es_mx/tech/wan/point-to-point-protocol-ppp/$
+
+    \bibitem{vad}
+    $searchunifiedcommunications.techtarget.com/definition/voice-activation-detection$
+
+    \bibitem{mpls}
+    $www.networkworld.es/telecomunicaciones/como-funciona-mpls$
+
+    \bibitem{servidorhp}
+    $hpe.com/mx/es/product-catalog/servers/proliant-servers/pip.hpe-proliant-dl580-gen10-server.1010192779.html$
+
+    \bibitem{pdh}
+    $es.wikipedia.org/wiki/Jerarquiadigitalplesiocrona$
+
+    \bibitem{ethernet}
+    $electronics-notes.com/articles/connectivity/ethernet-ieee-802-3/$
+
+    \bibitem{swicthes}
+    $meraki.cisco.com/products/switches/ms120-48$
+
+    \bibitem{routers}
+    $meraki.cisco.com/products/wireless/mr42$
+
+    \bibitem{routers2}
+    $meraki.cisco.com/products/wireless/mr53$
+
+    \bibitem{gateways}
+    $cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/datasheetc78-710996.html$
+
 \end{thebibliography}
 
 \end{document}
