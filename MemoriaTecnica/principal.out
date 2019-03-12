@@ -28,11 +28,11 @@
 \BOOKMARK [1][-]{section.8}{Servicios Schedule VF}{}% 28
 \BOOKMARK [1][-]{section.9}{Gestor de servidor}{}% 29
 \BOOKMARK [1][-]{section.10}{BW calculado}{}% 30
-\BOOKMARK [2][-]{subsection.10.1}{Proceso y operaciones para calcular el ancho de banda para VoIP}{section.10}% 31
-\BOOKMARK [2][-]{subsection.10.2}{Proceso y operaciones para calcular el ancho de banda para e-mail}{section.10}% 32
-\BOOKMARK [2][-]{subsection.10.3}{Proceso y operaciones para calcular el ancho de banda para chat}{section.10}% 33
-\BOOKMARK [2][-]{subsection.10.4}{Proceso y operaciones para calcular el ancho de la web empresarial}{section.10}% 34
-\BOOKMARK [2][-]{subsection.10.5}{Proceso y operaciones para calcular el ancho de banda para video conferencia}{section.10}% 35
+\BOOKMARK [2][-]{subsection.10.1}{M\351todo para el c\341lculo del ancho de banda para VoIP}{section.10}% 31
+\BOOKMARK [2][-]{subsection.10.2}{M\351todo para el c\341lculo del ancho de banda para e-mail}{section.10}% 32
+\BOOKMARK [2][-]{subsection.10.3}{M\351todo para el c\341lculo del ancho de banda para chat}{section.10}% 33
+\BOOKMARK [2][-]{subsection.10.4}{M\351todo para el c\341lculo del ancho de la web empresarial}{section.10}% 34
+\BOOKMARK [2][-]{subsection.10.5}{M\351todo para el c\341lculo del ancho de banda para video conferencia}{section.10}% 35
 \BOOKMARK [2][-]{subsection.10.6}{Suma total del ancho de banda de los servicios telematicos}{section.10}% 36
 \BOOKMARK [1][-]{section.11}{Tributarios}{}% 37
 \BOOKMARK [2][-]{subsection.11.1}{PDH}{section.11}% 38

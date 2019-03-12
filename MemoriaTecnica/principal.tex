@@ -528,14 +528,14 @@ Enseguida se muestran sus características sobresalientes. \cite{servidorhp}
 
 \textbf{Calculo de disponibilidad de acuerdo con el porcentaje del grado de servicio}
 \begin{equation}
-    Margen=1-\frac{Porcentaje}{100}
+    Margen=1-\frac{Grado \ de \ servicio}{100}
 \end{equation}
 
 \begin{table}[ht]
     \centering
     \begin{tabular}{|l|l|l|}
     \hline
-    Grado de servicio & Margen de error & Disponibilidad \\ \hline
+    Grado de servicio & Margen de error & Grado de servicio \\ \hline
     Platinum & 0.0001 & 99.99\% \\ \hline
     Golden & 0.002 & 99.8\% \\ \hline
     Silver & 0.02 & 98\% \\ \hline
@@ -546,7 +546,7 @@ Enseguida se muestran sus características sobresalientes. \cite{servidorhp}
 \end{table}
 
 \newpage
-\subsection{Proceso y operaciones para calcular el ancho de banda para VoIP}
+\subsection{Método para el cálculo del ancho de banda para VoIP}
 1. Calculo de erlangs.
 \begin{equation}
     A=\frac{N* \overline{t}}{hp}[erlang]
@@ -707,7 +707,7 @@ del nivel de servicio.
 \end{equation}
 
 \newpage
-\subsection{Proceso y operaciones para calcular el ancho de banda para e-mail}
+\subsection{Método para el cálculo del ancho de banda para e-mail}
 \begin{equation}
     BW_{correo}=Correos*Personas*BW_{servicio} \ [bps]
 \end{equation}
@@ -783,7 +783,7 @@ del nivel de servicio.
 \end{equation}
 
 \newpage
-\subsection{Proceso y operaciones para calcular el ancho de banda para chat}
+\subsection{Método para el cálculo del ancho de banda para chat}
 \begin{equation}
     BW_{mensaje+ftp}=mensajes*Personas*BW_{servicio} \ [bps]
 \end{equation}
@@ -859,7 +859,7 @@ del nivel de servicio.
 \end{equation}
 
 \newpage
-\subsection{Proceso y operaciones para calcular el ancho de la web empresarial}
+\subsection{Método para el cálculo del ancho de la web empresarial}
 \begin{equation}
     BW=Peticiones*Personas*BW_{servicio} \ [bps]
 \end{equation}
@@ -935,7 +935,7 @@ del nivel de servicio.
 \end{equation}
 
 \newpage
-\subsection{Proceso y operaciones para calcular el ancho de banda para video conferencia}
+\subsection{Método para el cálculo del ancho de banda para video conferencia}
 \begin{equation}
     BW_{video+ftp}=8.01 \ [Mbps]
 \end{equation}

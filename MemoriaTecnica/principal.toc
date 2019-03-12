@@ -29,11 +29,11 @@
 \contentsline {section}{\numberline {8}Servicios Schedule VF}{20}{section.8}% 
 \contentsline {section}{\numberline {9}Gestor de servidor}{20}{section.9}% 
 \contentsline {section}{\numberline {10}BW calculado}{22}{section.10}% 
-\contentsline {subsection}{\numberline {10.1}Proceso y operaciones para calcular el ancho de banda para VoIP}{23}{subsection.10.1}% 
-\contentsline {subsection}{\numberline {10.2}Proceso y operaciones para calcular el ancho de banda para e-mail}{27}{subsection.10.2}% 
-\contentsline {subsection}{\numberline {10.3}Proceso y operaciones para calcular el ancho de banda para chat}{29}{subsection.10.3}% 
-\contentsline {subsection}{\numberline {10.4}Proceso y operaciones para calcular el ancho de la web empresarial}{31}{subsection.10.4}% 
-\contentsline {subsection}{\numberline {10.5}Proceso y operaciones para calcular el ancho de banda para video conferencia}{33}{subsection.10.5}% 
+\contentsline {subsection}{\numberline {10.1}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para VoIP}{23}{subsection.10.1}% 
+\contentsline {subsection}{\numberline {10.2}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para e-mail}{27}{subsection.10.2}% 
+\contentsline {subsection}{\numberline {10.3}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para chat}{29}{subsection.10.3}% 
+\contentsline {subsection}{\numberline {10.4}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de la web empresarial}{31}{subsection.10.4}% 
+\contentsline {subsection}{\numberline {10.5}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para video conferencia}{33}{subsection.10.5}% 
 \contentsline {subsection}{\numberline {10.6}Suma total del ancho de banda de los servicios telematicos}{33}{subsection.10.6}% 
 \contentsline {section}{\numberline {11}Tributarios}{34}{section.11}% 
 \contentsline {subsection}{\numberline {11.1}PDH}{34}{subsection.11.1}% 
