@@ -27,21 +27,15 @@
 \BOOKMARK [2][-]{subsection.7.7}{MPLS}{section.7}% 27
 \BOOKMARK [1][-]{section.8}{Servicios Schedule VF}{}% 28
 \BOOKMARK [1][-]{section.9}{Gestor de servidor}{}% 29
-\BOOKMARK [1][-]{section.10}{BW calculado}{}% 30
-\BOOKMARK [2][-]{subsection.10.1}{M\351todo para el c\341lculo del ancho de banda para VoIP}{section.10}% 31
-\BOOKMARK [2][-]{subsection.10.2}{M\351todo para el c\341lculo del ancho de banda para e-mail}{section.10}% 32
-\BOOKMARK [2][-]{subsection.10.3}{M\351todo para el c\341lculo del ancho de banda para chat}{section.10}% 33
-\BOOKMARK [2][-]{subsection.10.4}{M\351todo para el c\341lculo del ancho de la web empresarial}{section.10}% 34
-\BOOKMARK [2][-]{subsection.10.5}{M\351todo para el c\341lculo del ancho de banda para video conferencia}{section.10}% 35
-\BOOKMARK [2][-]{subsection.10.6}{Suma total del ancho de banda de los servicios telematicos}{section.10}% 36
-\BOOKMARK [1][-]{section.11}{Tributarios}{}% 37
-\BOOKMARK [2][-]{subsection.11.1}{PDH}{section.11}% 38
-\BOOKMARK [2][-]{subsection.11.2}{Jerarqu\355a digital plesi\363crona}{section.11}% 39
-\BOOKMARK [2][-]{subsection.11.3}{Divisi\363n de tributarios}{section.11}% 40
-\BOOKMARK [1][-]{section.12}{Especificaciones de equipos de red}{}% 41
-\BOOKMARK [2][-]{subsection.12.1}{Categor\355as de cables Ethernet}{section.12}% 42
-\BOOKMARK [2][-]{subsection.12.2}{Swicthes}{section.12}% 43
-\BOOKMARK [2][-]{subsection.12.3}{Routers}{section.12}% 44
-\BOOKMARK [2][-]{subsection.12.4}{Gateways}{section.12}% 45
-\BOOKMARK [1][-]{section.13}{Conectividad enlace ATM}{}% 46
-\BOOKMARK [1][-]{section.14}{Arquitectura de red \(Intra-ATM\)}{}% 47
+\BOOKMARK [1][-]{section.10}{Resumen de resultados para el ancho de banda}{}% 30
+\BOOKMARK [1][-]{section.11}{Tributarios}{}% 31
+\BOOKMARK [2][-]{subsection.11.1}{PDH}{section.11}% 32
+\BOOKMARK [2][-]{subsection.11.2}{Jerarqu\355a digital plesi\363crona}{section.11}% 33
+\BOOKMARK [2][-]{subsection.11.3}{Divisi\363n de tributarios}{section.11}% 34
+\BOOKMARK [1][-]{section.12}{Especificaciones de equipos de red}{}% 35
+\BOOKMARK [2][-]{subsection.12.1}{Categor\355as de cables Ethernet}{section.12}% 36
+\BOOKMARK [2][-]{subsection.12.2}{Swicthes}{section.12}% 37
+\BOOKMARK [2][-]{subsection.12.3}{Routers}{section.12}% 38
+\BOOKMARK [2][-]{subsection.12.4}{Gateways}{section.12}% 39
+\BOOKMARK [1][-]{section.13}{Conectividad enlace ATM}{}% 40
+\BOOKMARK [1][-]{section.14}{Arquitectura de red \(Intra-ATM\)}{}% 41
