@@ -1,14 +1,24 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Poligonal}{3}{section.1}% 
-\contentsline {section}{\numberline {2}Ruta}{4}{section.2}% 
-\contentsline {subsection}{\numberline {2.1}Ruta principal y alternativa}{4}{subsection.2.1}% 
-\contentsline {subsection}{\numberline {2.2}Salida de corporativo}{5}{subsection.2.2}% 
-\contentsline {subsection}{\numberline {2.3}Puntos cr\IeC {\'\i }ticos: Ruta principal}{6}{subsection.2.3}% 
-\contentsline {subsubsection}{\numberline {2.3.1}Primer tramo}{6}{subsubsection.2.3.1}% 
-\contentsline {subsubsection}{\numberline {2.3.2}Segundo tramo}{7}{subsubsection.2.3.2}% 
-\contentsline {subsubsection}{\numberline {2.3.3}Tercer tramo}{8}{subsubsection.2.3.3}% 
-\contentsline {subsection}{\numberline {2.4}Estemaci\IeC {\'o}n}{9}{subsection.2.4}% 
-\contentsline {section}{\numberline {3}Ductos}{10}{section.3}% 
-\contentsline {section}{\numberline {4}Fibras}{11}{section.4}% 
-\contentsline {section}{\numberline {5}Arquitectura}{12}{section.5}% 
-\contentsline {section}{\numberline {6}E-commerce}{13}{section.6}% 
+\contentsline {section}{\numberline {1}Poligonal}{4}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Coordenadas}{4}{subsection.1.1}% 
+\contentsline {section}{\numberline {2}Perfil de elevaci\IeC {\'o}n }{5}{section.2}% 
+\contentsline {section}{\numberline {3}Ruta}{6}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Ruta principal y alternativa}{6}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Salida de corporativo}{7}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Puntos cr\IeC {\'\i }ticos: Ruta principal}{8}{subsection.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.1}Primer tramo}{8}{subsubsection.3.3.1}% 
+\contentsline {subsubsection}{\numberline {3.3.2}Segundo tramo}{9}{subsubsection.3.3.2}% 
+\contentsline {subsubsection}{\numberline {3.3.3}Tercer tramo}{10}{subsubsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Estimaci\IeC {\'o}n}{11}{subsection.3.4}% 
+\contentsline {subsubsection}{\numberline {3.4.1}Ruta principal}{11}{subsubsection.3.4.1}% 
+\contentsline {subsubsection}{\numberline {3.4.2}Ruta secundaria}{11}{subsubsection.3.4.2}% 
+\contentsline {section}{\numberline {4}Ductos}{12}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Antecedente}{12}{subsection.4.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}Tendido subterr\IeC {\'a}neo}{12}{subsubsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.2}Tendido a\IeC {\'e}reo}{13}{subsubsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.2}Ductos para ruta}{13}{subsection.4.2}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Material para ruta subterr\IeC {\'a}nea e interiores}{13}{subsubsection.4.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Material para ruta a\IeC {\'e}rea}{14}{subsubsection.4.2.2}% 
+\contentsline {section}{\numberline {5}Fibras}{15}{section.5}% 
+\contentsline {section}{\numberline {6}Arquitectura}{16}{section.6}% 
+\contentsline {section}{\numberline {7}E-commerce}{17}{section.7}% 
