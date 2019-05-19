@@ -36,15 +36,38 @@
 \BOOKMARK [3][-]{subsubsection.2.2.7}{MPLS}{subsection.2.2}% 36
 \BOOKMARK [2][-]{subsection.2.3}{Servicios Schedule VF}{section.2}% 37
 \BOOKMARK [2][-]{subsection.2.4}{Resumen de resultados para el ancho de banda}{section.2}% 38
-\BOOKMARK [1][-]{section.3}{Requerimientos Ecomerce}{}% 39
-\BOOKMARK [1][-]{section.4}{C\341lculo de enlace}{}% 40
-\BOOKMARK [1][-]{section.5}{Anexos}{}% 41
-\BOOKMARK [2][-]{subsection.5.1}{Poligonal}{section.5}% 42
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Coordenadas}{subsection.5.1}% 43
-\BOOKMARK [2][-]{subsection.5.2}{C\341lculos}{section.5}% 44
-\BOOKMARK [3][-]{subsubsection.5.2.1}{M\351todo para el c\341lculo del ancho de banda para VoIP}{subsection.5.2}% 45
-\BOOKMARK [3][-]{subsubsection.5.2.2}{M\351todo para el c\341lculo del ancho de banda para e-mail}{subsection.5.2}% 46
-\BOOKMARK [3][-]{subsubsection.5.2.3}{M\351todo para el c\341lculo del ancho de banda para chat}{subsection.5.2}% 47
-\BOOKMARK [3][-]{subsubsection.5.2.4}{M\351todo para el c\341lculo del ancho de la web empresarial}{subsection.5.2}% 48
-\BOOKMARK [3][-]{subsubsection.5.2.5}{M\351todo para el c\341lculo del ancho de banda para video conferencia}{subsection.5.2}% 49
-\BOOKMARK [3][-]{subsubsection.5.2.6}{Suma total del ancho de banda de los servicios telematicos}{subsection.5.2}% 50
+\BOOKMARK [2][-]{subsection.2.5}{Tributarios}{section.2}% 39
+\BOOKMARK [3][-]{subsubsection.2.5.1}{PDH}{subsection.2.5}% 40
+\BOOKMARK [3][-]{subsubsection.2.5.2}{Jerarqu\355a digital plesi\363crona}{subsection.2.5}% 41
+\BOOKMARK [3][-]{subsubsection.2.5.3}{Divisi\363n de tributarios}{subsection.2.5}% 42
+\BOOKMARK [1][-]{section.3}{Requerimientos Ecomerce}{}% 43
+\BOOKMARK [1][-]{section.4}{C\341lculo de enlace}{}% 44
+\BOOKMARK [2][-]{subsection.4.1}{SDH}{section.4}% 45
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Funcionamiento b\341sico de la jerarqu\355a digital s\355ncrona}{subsection.4.1}% 46
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Los componentes SDH de las distintas capas}{subsection.4.1}% 47
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Multiplexado y redundancia}{subsection.4.1}% 48
+\BOOKMARK [2][-]{subsection.4.2}{Rutas principales}{section.4}% 49
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Ruta principal y alternativa Corporativo - Centro de datos }{subsection.4.2}% 50
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Ruta principal y alternativa ISP - Centro de datos}{subsection.4.2}% 51
+\BOOKMARK [2][-]{subsection.4.3}{Equipos}{section.4}% 52
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Gateway}{subsection.4.3}% 53
+\BOOKMARK [3][-]{subsubsection.4.3.2}{CWDM}{subsection.4.3}% 54
+\BOOKMARK [2][-]{subsection.4.4}{Ruta superficial, subsuelo o aerea}{section.4}% 55
+\BOOKMARK [2][-]{subsection.4.5}{Normatividad}{section.4}% 56
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Tendido aereo}{subsection.4.5}% 57
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Tendido subterraneo}{subsection.4.5}% 58
+\BOOKMARK [2][-]{subsection.4.6}{Ducteria}{section.4}% 59
+\BOOKMARK [2][-]{subsection.4.7}{Fibras}{section.4}% 60
+\BOOKMARK [2][-]{subsection.4.8}{ADM, conectores, empalmes}{section.4}% 61
+\BOOKMARK [2][-]{subsection.4.9}{C\341lculo enlace}{section.4}% 62
+\BOOKMARK [2][-]{subsection.4.10}{Conclusi\363n}{section.4}% 63
+\BOOKMARK [1][-]{section.5}{Anexos}{}% 64
+\BOOKMARK [2][-]{subsection.5.1}{Poligonal}{section.5}% 65
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Coordenadas}{subsection.5.1}% 66
+\BOOKMARK [2][-]{subsection.5.2}{C\341lculos}{section.5}% 67
+\BOOKMARK [3][-]{subsubsection.5.2.1}{M\351todo para el c\341lculo del ancho de banda para VoIP}{subsection.5.2}% 68
+\BOOKMARK [3][-]{subsubsection.5.2.2}{M\351todo para el c\341lculo del ancho de banda para e-mail}{subsection.5.2}% 69
+\BOOKMARK [3][-]{subsubsection.5.2.3}{M\351todo para el c\341lculo del ancho de banda para chat}{subsection.5.2}% 70
+\BOOKMARK [3][-]{subsubsection.5.2.4}{M\351todo para el c\341lculo del ancho de la web empresarial}{subsection.5.2}% 71
+\BOOKMARK [3][-]{subsubsection.5.2.5}{M\351todo para el c\341lculo del ancho de banda para video conferencia}{subsection.5.2}% 72
+\BOOKMARK [3][-]{subsubsection.5.2.6}{Suma total del ancho de banda de los servicios telematicos}{subsection.5.2}% 73

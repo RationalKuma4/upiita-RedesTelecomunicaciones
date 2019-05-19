@@ -629,7 +629,75 @@ anexos.
     \label{my-label}
 \end{table}
 
+\subsection{Tributarios}
+\subsubsection{PDH}
+La jerarquía digital plesiócrona (PDH) es una tecnología de transmisión de redes de 
+telecomunicaciones diseñada para el transporte de grandes volúmenes de datos a través de 
+redes digitales de gran escala.
+\\ \\
+El diseño PDH permite el streaming de datos sin tener isócronos (relojes que funcionan a 
+la misma hora, perfectamente sincronizados) para sincronizar los intercambios de señales. 
+Los relojes PDH están funcionando muy cerca, pero no exactamente a tiempo uno del otro, 
+de modo que al multiplexar, los tiempos de llegada de la señal pueden diferir, ya que 
+las velocidades de transmisión están directamente vinculadas a la velocidad del reloj. 
+\\ \\
+PDH permite que cada flujo de una señal multiplexada se rellene con bits para compensar 
+las diferencias de tiempo, de modo que el flujo de datos original pueda reconstituirse 
+exactamente como se envió.
+\\ \\
+El término plesiócrono significa casi sincrónico. PDH soporta una velocidad de 
+transmisión de datos de 2048 Kbps. La velocidad de datos es controlada por un reloj en 
+el dispositivo que genera los datos. \cite{pdh}
 
+\subsubsection{Jerarquía digital plesiócrona}
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|l|}
+    \hline
+    Jerarquía & Velocidad \\ \hline
+    E0 & 64 Kbps \\ \hline
+    E1 & 2.048 Mbps \\ \hline
+    E2 & 8.44 Mbps \\ \hline
+    E3 & 34.36 Mbps \\ \hline
+    E4 & 139.26 Mbps \\ \hline
+    E5 & 564.99 Mbps \\ \hline
+    \end{tabular}
+    \caption{Tabla de jerarquías.}
+    \label{my-label}
+\end{table}
+
+\subsubsection{División de tributarios}
+En esta propuesta se cuenta con dos redes LAN que proporcionarán la conectividad para 
+el funcionamiento de los servicios telemáticos.
+\\ \\
+\textbf{Red LAN piso 8}
+\begin{itemize}
+    \item \textbf{Servicio VoIP:} 11.25 Mbps
+    \item \textbf{Servicio de e-mail: }14.22 Mbps
+    \item \textbf{Servicio de chat: } 190 Mbps
+    \item \textbf{Servicio de web empresarial: } 16.35 Mbps
+    \item \textbf{Servicio de Videoconferencia: } 32.04 Mbps
+\end{itemize}
+\textbf{Ancho de banda total utilizado por el piso: }265.63*2 = 531.26 Mbps.
+\\ \\
+\textbf{PDH piso 8}
+\newline
+$531.26 \ Mbps \approx E5 = 564.99 \ Mbps$
+\\ \\
+\textbf{Red LAN piso 7}
+\begin{itemize}
+    \item \textbf{Servicio VoIP:} 4.70 Mbps
+    \item \textbf{Servicio de e-mail: } 19.15 Mbps
+    \item \textbf{Servicio de chat: } 382.5 Mbps
+    \item \textbf{Servicio de web empresarial: } 21.3 Mbps
+    \item \textbf{Servicio de Videoconferencia: } 16.02 Mbps
+\end{itemize}
+\textbf{Ancho de banda total utilizado por el piso: }443.67*2 = 887.34 Mbps.
+\\ \\
+\textbf{PDH piso 7}
+\newline
+$887.34 \ Mbps \approx E5 + 2E4+2E3 = 915.23 \ Mbps$
+\\ \\
 
 
 
@@ -647,6 +715,284 @@ anexos.
 
 \newpage
 \section{Cálculo de enlace}
+\subsection{SDH}
+El acrónimo SDH significa Synchronous Digital Hierarchy (Jerarquía digital síncrona) y se 
+refiere a una tecnología de multiplexación utilizada en las telecomunicaciones. SDH permite 
+combinar flujos de datos con velocidades binarias bajas en flujos de datos de alta velocidad. 
+Dado que toda la red es síncrona, los flujos de bits individuales pueden incrustarse y 
+extraerse de flujos de datos de alta velocidad con relativa facilidad.
+\\ \\
+Las especificaciones iniciales se desarrollaron en 1985 en los EE.UU. bajo el término SONET. 
+Como nuevo sistema de transmisión óptica digital, SONET debía proporcionar ventajas clave 
+sobre la jerarquía digital plesiócrona (PDH), sin dejar de ser capaz de transportar PDH. 
+SDH normalizado por el UIT-T basado en SONET. SONET y SDH son interoperables. SDH es 
+adecuado como sistema de transmisión para RDSI de banda ancha y para el transporte de 
+células ATM, señales PDH, agregaciones Ethernet, señales SAN y otras señales de comunicación.
+
+\subsubsection{Funcionamiento básico de la jerarquía digital síncrona}
+SDH combina n señales con una velocidad de bits de b para formar flujos de datos con 
+velocidades de bits de n x b en una red sincronizada. A diferencia de la PDH, las rutas de 
+transmisión individuales tienen discrepancias mínimas en el reloj. El modo de 
+funcionamiento síncrono permite que los sistemas multiplexores de bajo orden, como los 
+enlaces de comunicación para sistemas telefónicos, se inserten en niveles jerárquicos 
+superiores y luego se eliminen de nuevo mediante la adición y la eliminación. De acuerdo 
+con los niveles definidos por el estándar, SDH reconoce diferentes jerarquías como STM-1, 
+STM-4, STM-16 o STM-64 (155 MBits, 622 MBits, 2.488 MBits, 9.953 MBits) y más. Alrededor 
+del 5\% de la tasa bruta de datos se reserva para las tareas de la OAM (operaciones, 
+administración y mantenimiento). Los datos se transportan de forma transparente a través 
+de la red SDH en contenedores.
+
+\subsubsection{Los componentes SDH de las distintas capas}
+En la capa física, la jerarquía síncrona digital utiliza conexiones basadas en líneas de 
+cobre, fibra óptica o enlaces por satélite y radiogoniometría. Las señales distorsionadas 
+o silenciadas se pueden refrescar mediante regeneradores. En la capa superior, los 
+multiplexores combinan las señales en flujos de datos de alta velocidad de bits. Por 
+último, los contenedores virtuales transportan los contenedores individuales de datos 
+utilizables y controlan el mapeo de las distintas señales de diferentes velocidades binarias.
+
+%\newpage
+%Jerarquía SDH para un modelo Europeo.
+%\begin{figure}[ht]
+%    \centering
+%    \includegraphics[width=1\textwidth]{imagenes/sdhj.png}
+%    \caption{Jerarquía SDH.}
+%\end{figure}
+\newpage
+Jerarquía SDH y SONET.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{imagenes/sdhj1.png}
+    \caption{Jerarquía SDH.}
+\end{figure}
+
+\subsubsection{Multiplexado y redundancia}
+De acuerdo con la tabla anterior y nuestros datos del ancho de banda.
+\begin{itemize}
+    \item \textbf{Ancho de banda reservado para Ecommerce: } 4 [Gbps].
+    \item \textbf{Ancho de banda reservado para servicios de Intranet: } 1.4172 [Gbps].
+\end{itemize}
+
+\textbf{Ancho de banda total: } 4 + 1.4172 = 5.4172 [Gbps]
+\\ \\
+5.4172 Gbps $\approx$ 2-STS-48 + 1-STS-69 = 6.842 [Gbps]
+\\ \\
+La multiplexación anterior nos deja con 1.4248 [Gbps] de redundancia.
+
+\newpage
+\subsection{Rutas principales}
+\subsubsection{Ruta principal y alternativa Corporativo - Centro de datos }
+Ruta principal tomando la mayor parte del trayecto por metro.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.9\textwidth]{imagenes/f2.png}
+    \caption{Ruta principala a escala.}
+\end{figure}
+
+La ruta alternativa cuenta con tramo principal por avenidas 
+vehiculares.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.9\textwidth]{imagenes/f3.png}
+    \caption{Ruta alternativa a escala.}
+\end{figure}
+
+\newpage
+\textbf{Estimación Ruta principal}
+\begin{itemize}
+    \item Longitud de recorrido: 15.5 $km$
+    \item Longitud redundante: $15.5*.20\%=3.1km$
+    \item Longitud total: 18.6 $km$
+\end{itemize}
+
+\textbf{Estimación Ruta secundaria}\\
+\begin{itemize}
+    \item Longitud de recorrido: 16.5 $km$
+    \item Longitud redundante: $16.5*.20\%=3.3km$
+    \item Longitud total: 19.8 $km$ 
+\end{itemize}
+
+\subsubsection{Ruta principal y alternativa ISP - Centro de datos}
+Ruta principal.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes/f22.png}
+    \caption{Ruta principal ISP - Centro de datos.}
+\end{figure}
+
+\newpage
+Ruta alternativa.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes/f23.png}
+    \caption{Ruta alternativa ISP - Centro de datos.}
+\end{figure}
+
+\textbf{Estimación Ruta principal}
+\begin{itemize}
+    \item Longitud de recorrido: 16.4 $km$
+    \item Longitud redundante: $16.4*.20\%=3.28km$
+    \item Longitud total: 19.88 $km$
+\end{itemize}
+
+\textbf{Ruta secundaria}
+\begin{itemize}
+    \item Longitud de recorrido: 16.1 $km$
+    \item Longitud redundante: $16.1*.20\%=3.22km$
+    \item Longitud total: 19.23 $km$ 
+\end{itemize}
+
+\newpage
+\subsection{Equipos}
+\subsubsection{Gateway}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.4\textwidth]{imagenes/gateway.PNG}
+    \caption{Gateway Cisco VG350.}
+\end{figure}
+
+El gateway analógico de alta densidad Cisco VG350 es un gateway telefónico analógico 
+basado en software Cisco IOS ®. Conecta teléfonos analógicos, máquinas de fax, módems y 
+altavoces a un sistema de voz empresarial basado en Cisco Unified Communications Manager 
+(UCM). La estrecha integración con el sistema telefónico basado en IP es ventajosa para 
+aumentar la capacidad de gestión, la escalabilidad y la rentabilidad. Las empresas también 
+pueden utilizar el Cisco VG350 con Cisco Unified Communications Manager Express para 
+aumentar de forma efectiva un entorno de router de servicios integrados (ISR). 
+Cualquiera de los dos entornos de topología soportará las necesidades empresariales de 
+alta concentración de puertos de voz analógicos para llamadas por módem, llamadas por 
+fax y servicios suplementarios analógicos.
+\\ \\
+El Cisco VG350 ofrece la capacidad de gestión del software Cisco IOS en líneas telefónicas 
+analógicas para que puedan utilizarse como extensiones del sistema Cisco Unified 
+Communications Manager o Cisco Unified Communications Manager Express. El Cisco VG350 
+se ofrece en forma de chasis para montaje en bastidor de 19 pulgadas. \cite{gateways}
+\\ \\
+\textbf{Protocolos compatibles}
+\begin{itemize} 
+    \item PCCC.
+    \item H.323v4.
+    \item MGCP.
+    \item SIP.
+    \item Protocolo de transporte en tiempo real (RTP).
+    \item Protocolo de transporte seguro en tiempo real (SRTP).
+    \item Protocolo de transferencia de archivos triviales (TFTP).
+    \item Servidor HTTP.
+    \item SNMP.
+    \item Telnet.
+    \item Protocolo de configuración dinámica de host (DHCP).
+    \item Sistema de nombres de dominio (DNS).
+    \item Cisco Unified Communications Manager o Cisco Unified 
+    Communications Manager Compatibilidad con redundancia Express 
+    mediante el protocolo Hot Standby Router Protocol (HSRP)
+    \item Supervivencia de llamadas: conmutación por error MGCP 
+    a una conexión H.323 al enrutador SRST.
+    \item Compatibilidad con codificadores/decodificadores (codecs), G.711 y G.729a.
+    \item RADIUS y TACACS+ para Telnet y autorización.
+    \item Copacidad máxima de hasta 10 Gbps.
+\end{itemize}
+%Como se menciona en la descripción del producto, una característica a resaltar es la capacidad 
+%de soportar comunicaciones analógicas. Esto brinda la oportunidad de tener comunicaciones redundantes 
+%en caso de que se presete alguna falla en los medios digitales.
+
+%Ahora se muestra una imagen con la descripción de las entradas disponibles. Vale la pena 
+%mencionar que cuenta con dos entradas SFPI.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{imagenes/gatequipo.PNG}
+    \caption{Gateway Cisco VG350.}
+\end{figure}
+
+\subsubsection{CWDM}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes/cwdm.PNG}
+    \caption{CWDM.}
+\end{figure}
+
+\subsection{Ruta superficial, subsuelo o aerea}
+
+\newpage
+\subsection{Normatividad}
+Enseguida se muestra una tabla con las recomendaciones realizadas por la ITU.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.7\textwidth]{imagenes/norm.PNG}
+    \caption{Normas.}
+\end{figure}
+
+Con base en ellas se muestran las recomendaciones para la instalación de los tendidos 
+subterraneos y aereos.
+
+\subsubsection{Tendido aereo}
+\begin{itemize}
+    \item Instalar el fiador (correcto conexionado a tierra).
+    \item Preparar equipamiento (ver Fig. 4.1)
+    \item Instalar cable guía y fijador al fiador.
+    \item Respetar los radios de curvatura apropiados.
+    \item Elevar el cable de Fibra óptica hasta el cable guía y fijador.
+    \item Mantener la distancia de seguridad de la bobina de cable (15 mts) en relación al fijador.
+    \item Instalar fijador y asegurar al fiador (abrazadera de fijación).
+    \item Atar el cable al fiador en la abrazadera de manera temporal.
+    \item Ajustar el fijador para una adecuada operación.
+    \item Fijar un cabo de tiro al fijador.
+    \item Iniciar la operación de estirar a mano sin brusquedad y mantener la velocidad de estirado respetando la distancia de seguridad de la bobina.
+    \item En cada poste se detiene el tendido y se realiza el lazo de expansión (ver Fig. 4.2) si este es preciso (no es necesario en cables autoportantes).
+    \item Continuar el tendido identificando en cada poste con etiquetas de aviso de cable óptico.
+    \item Cuando sea preciso, la cajas de empalmes se pueden montar en postes (ver Fig. 4.3) o en el cable fiador (ver Fig. 4.4).
+\end{itemize}
+
+
+\subsubsection{Tendido subterraneo}
+\begin{itemize}
+    \item Asegurarse de guardar las precauciones de seguridad (identificación de arquetas, presencia de gases, combustibles, cables de energía, etc).
+    \item Preparación, inspección e identificación de los conductos a utilizar (lubricado, dimensionado, etc).
+    \item Preparar cable guía de tracción, de ser preciso ( ver FIG 4.5)
+    \item Instalar cable guía.
+    \item Respetar los radios de curvatura apropiados.
+    \item Colocar la bobina de cable en los soportes adecuados para facilitar el desencarretado.
+    \item Colocar las poleas y rodillos necesarios para facilitar el arrastre del cable a través de los conductos y arquetas del trayecto.
+    \item Instalar fijador y asegurar el fiador (abrazadera de fijación).
+    \item Atar el cable al fiador en la abrazadera de manera temporal.
+    \item Ajustar el fijador para una adecuada operacíón.
+    \item Iniciar la operación de estirar a mano sin brusquedad y mantener la velocidad de estirado y lubricar el cable si es necesario.
+    \item En cada arqueta se verificará el guiado del cable y se realizará la reserva de cable (ver FIG 4.6) si esta es precisa (sobre todo en arquetas de cambio de dirección).
+    \item Continuar el tendido procurando que los extremos de los cables de cada trayecto, coincidan en una arqueta para su posterior mecanización mediante empalmes. Prever la longitud necesaria para la realización de los empalmes fuera de la arqueta.
+    \item Identificar en las arquetas de empalme los extremos de cada cable con etiquetas de identificación de cable óptico (ver FIG 4.7).
+    \item Asegurarse de que durante el tendido (siempre que sea posible mediante tracción manual) se mantiene una holgura de desencarretado de 3 o 4 metros para evitar excesiva fuerza de tracción y rozaduras en el cable.
+    \item Terminado el trayecto deberá realizarse una verificación del tendido del cable óptico mediante un OTDR con el fin de comprobar que no haya sufrido daño alguno el cable (roturas, radios de curvatura excesivos, etc).
+    \item Acondicionar el cable y cerrar cada una de las arquetas del trayecto correspondiente (grapeado del cable, identificación de reservas, sellado de conductos, etc).
+\end{itemize}
+
+
+\newpage
+\subsection{Ducteria}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.7\textwidth]{imagenes/ductos.PNG}
+    \caption{Ducto.}
+\end{figure}
+
+\newpage
+\subsection{Fibras}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.67\textwidth]{imagenes/fibra1.PNG}
+    \caption{Fibra subterranea.}
+\end{figure}
+
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.67\textwidth]{imagenes/fibra2.PNG}
+    \caption{Fibra aerea.}
+\end{figure}
+
+
+\newpage
+\subsection{ADM, conectores, empalmes}
+
+\subsection{Cálculo enlace}
+
+\subsection{Conclusión}
 
 
 \newpage

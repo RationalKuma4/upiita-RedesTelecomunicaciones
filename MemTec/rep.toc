@@ -37,15 +37,38 @@
 \contentsline {subsubsection}{\numberline {2.2.7}MPLS}{29}{subsubsection.2.2.7}% 
 \contentsline {subsection}{\numberline {2.3}Servicios Schedule VF}{31}{subsection.2.3}% 
 \contentsline {subsection}{\numberline {2.4}Resumen de resultados para el ancho de banda}{31}{subsection.2.4}% 
-\contentsline {section}{\numberline {3}Requerimientos Ecomerce}{32}{section.3}% 
-\contentsline {section}{\numberline {4}C\IeC {\'a}lculo de enlace}{33}{section.4}% 
-\contentsline {section}{\numberline {5}Anexos}{34}{section.5}% 
-\contentsline {subsection}{\numberline {5.1}Poligonal}{34}{subsection.5.1}% 
-\contentsline {subsubsection}{\numberline {5.1.1}Coordenadas}{34}{subsubsection.5.1.1}% 
-\contentsline {subsection}{\numberline {5.2}C\IeC {\'a}lculos}{35}{subsection.5.2}% 
-\contentsline {subsubsection}{\numberline {5.2.1}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para VoIP}{35}{subsubsection.5.2.1}% 
-\contentsline {subsubsection}{\numberline {5.2.2}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para e-mail}{39}{subsubsection.5.2.2}% 
-\contentsline {subsubsection}{\numberline {5.2.3}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para chat}{41}{subsubsection.5.2.3}% 
-\contentsline {subsubsection}{\numberline {5.2.4}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de la web empresarial}{43}{subsubsection.5.2.4}% 
-\contentsline {subsubsection}{\numberline {5.2.5}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para video conferencia}{45}{subsubsection.5.2.5}% 
-\contentsline {subsubsection}{\numberline {5.2.6}Suma total del ancho de banda de los servicios telematicos}{45}{subsubsection.5.2.6}% 
+\contentsline {subsection}{\numberline {2.5}Tributarios}{31}{subsection.2.5}% 
+\contentsline {subsubsection}{\numberline {2.5.1}PDH}{31}{subsubsection.2.5.1}% 
+\contentsline {subsubsection}{\numberline {2.5.2}Jerarqu\IeC {\'\i }a digital plesi\IeC {\'o}crona}{32}{subsubsection.2.5.2}% 
+\contentsline {subsubsection}{\numberline {2.5.3}Divisi\IeC {\'o}n de tributarios}{32}{subsubsection.2.5.3}% 
+\contentsline {section}{\numberline {3}Requerimientos Ecomerce}{34}{section.3}% 
+\contentsline {section}{\numberline {4}C\IeC {\'a}lculo de enlace}{35}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}SDH}{35}{subsection.4.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}Funcionamiento b\IeC {\'a}sico de la jerarqu\IeC {\'\i }a digital s\IeC {\'\i }ncrona}{35}{subsubsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.2}Los componentes SDH de las distintas capas}{35}{subsubsection.4.1.2}% 
+\contentsline {subsubsection}{\numberline {4.1.3}Multiplexado y redundancia}{36}{subsubsection.4.1.3}% 
+\contentsline {subsection}{\numberline {4.2}Rutas principales}{37}{subsection.4.2}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Ruta principal y alternativa Corporativo - Centro de datos }{37}{subsubsection.4.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Ruta principal y alternativa ISP - Centro de datos}{38}{subsubsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.3}Equipos}{40}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1}Gateway}{40}{subsubsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2}CWDM}{42}{subsubsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.4}Ruta superficial, subsuelo o aerea}{42}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Normatividad}{43}{subsection.4.5}% 
+\contentsline {subsubsection}{\numberline {4.5.1}Tendido aereo}{43}{subsubsection.4.5.1}% 
+\contentsline {subsubsection}{\numberline {4.5.2}Tendido subterraneo}{44}{subsubsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.6}Ducteria}{46}{subsection.4.6}% 
+\contentsline {subsection}{\numberline {4.7}Fibras}{47}{subsection.4.7}% 
+\contentsline {subsection}{\numberline {4.8}ADM, conectores, empalmes}{49}{subsection.4.8}% 
+\contentsline {subsection}{\numberline {4.9}C\IeC {\'a}lculo enlace}{49}{subsection.4.9}% 
+\contentsline {subsection}{\numberline {4.10}Conclusi\IeC {\'o}n}{49}{subsection.4.10}% 
+\contentsline {section}{\numberline {5}Anexos}{50}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Poligonal}{50}{subsection.5.1}% 
+\contentsline {subsubsection}{\numberline {5.1.1}Coordenadas}{50}{subsubsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.2}C\IeC {\'a}lculos}{51}{subsection.5.2}% 
+\contentsline {subsubsection}{\numberline {5.2.1}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para VoIP}{51}{subsubsection.5.2.1}% 
+\contentsline {subsubsection}{\numberline {5.2.2}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para e-mail}{55}{subsubsection.5.2.2}% 
+\contentsline {subsubsection}{\numberline {5.2.3}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para chat}{57}{subsubsection.5.2.3}% 
+\contentsline {subsubsection}{\numberline {5.2.4}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de la web empresarial}{59}{subsubsection.5.2.4}% 
+\contentsline {subsubsection}{\numberline {5.2.5}M\IeC {\'e}todo para el c\IeC {\'a}lculo del ancho de banda para video conferencia}{61}{subsubsection.5.2.5}% 
+\contentsline {subsubsection}{\numberline {5.2.6}Suma total del ancho de banda de los servicios telematicos}{61}{subsubsection.5.2.6}% 
