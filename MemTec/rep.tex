@@ -159,16 +159,6 @@ Calle Lago Zurich 245, Amp Granada, 11529 Ciudad de México, CDMX.
 \end{figure}
 
 \newpage
-\subsubsection{Centro de datos}
-Av. 12 No 96 Interior 2, Col. Ignacio Zaragoza, México D.F. CP. 15000.
-\\ Coordenadas: 19.41 N, 99.09 W
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.8\textwidth]{imagenes/centrodatos.png}
-    \caption{Centro de datos.}
-\end{figure}
-
-\newpage
 \subsubsection{Ubicación y niveles por ocupar en el edificio}
 \begin{figure}[ht]
     \centering
@@ -190,38 +180,58 @@ En seguida se muestra la altura en metros de los pisos a ocupar por el corporati
 \end{figure}
 
 \newpage
-\subsubsection{Organigrama}
+\subsubsection{Detalle arquitectónico}
+%La Torre de oficinas Lago Zurich está construida en un área de 2130 $m^2$, cuenta con 19 pisos, 
+%de los cuales 17 se destinan al servicio de oficinas y dos al servicio comercial. Su diseño 
+%arquitectónico es de tipo moderno. 
+El total de construcción es 36210 $m^2$. \cite{deatllearq} 
+El corporativo hace uso de dos pisos en los cuales se distribuyen el total de empleados de la organización con un detalle similar 
+al siguiente.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.78]{imagenes/detalle.png}
+    \caption{Detalle de piso.}
+\end{figure}
+
+\newpage
+\subsubsection{Centro de datos}
+Av. 12 No 96 Interior 2, Col. Ignacio Zaragoza, México D.F. CP. 15000.
+\\ Coordenadas: 19.41 N, 99.09 W
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{imagenes/centrodatos.png}
+    \caption{Centro de datos.}
+\end{figure}
+
+\newpage
+\subsubsection{Ubicación y niveles por ocupar en el centro de datos}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.7\textwidth]{imagenes/cdedificio.png}
+    \caption{Centro de datos.}
+\end{figure}
+Av 12 No 96 Interior 2, Col. Ignacio Zaragoza, México D.F. CP. 15000.
+
+\newpage
+\subsubsection{Organigrama corporativo La Costeña}
 \begin{figure}[ht]
     \centering
     \includegraphics[width=.9\textwidth]{imagenes/organigrama.png}
     \caption{Organigrama. \cite{costenaorganigrama}}
 \end{figure}
-Personal del corporativo.
 \begin{itemize}
-    \item \textbf{Presidencia: }
-    \item \textbf{Dirección General: }
-    \item \textbf{Secretaría General: }
-    \item \textbf{Asesoría Jurídica: }
-    \item \textbf{Comunicación e Imagen: }
-    \item \textbf{Relaciones Internacionales: }
-    \item \textbf{Departamento Administrativo: }
-    \item \textbf{Departamento de Producción: }
-    \item \textbf{Departamento Comercial: }
-    \item \textbf{Departamento Financiero: }
+    \item \textbf{Presidencia: }8
+    \item \textbf{Dirección General: }8
+    \item \textbf{Secretaría General: }10
+    \item \textbf{Asesoría Jurídica: }10
+    \item \textbf{Comunicación e Imagen: }12
+    \item \textbf{Relaciones Internacionales: }6
+    \item \textbf{Departamento Administrativo: }10
+    \item \textbf{Departamento de Producción: }10
+    \item \textbf{Departamento Comercial: }10
+    \item \textbf{Departamento Financiero: }10
+    \item \textbf{Relaciones públicas: }5
 \end{itemize}
-
-\newpage
-\subsubsection{Detalle arquitectónico}
-La Torre de oficinas Lago Zurich está construida en un área de 2130 $m^2$, cuenta con 19 pisos, 
-de los cuales 17 se destinan al servicio de oficinas y dos al servicio comercial. Su diseño 
-arquitectónico es de tipo moderno. El total de construcción es 36210 $m^2$. \cite{deatllearq} 
-El corporativo hace uso de dos pisos en los cuales se distribuyen el total de empleados de la organización con un detalle similar 
-al siguiente.
-\begin{figure}[ht]
-    \centering
-    \includegraphics[scale=.75]{imagenes/detalle.png}
-    \caption{Detalle de piso.}
-\end{figure}
 
 \newpage
 \subsection{Ruta Corporativo - Centro de datos }
@@ -284,6 +294,26 @@ La distancias son las subsiguientes.
     \item \textbf{Ruta alternativa: } 16.1 kilometros.
     \item \textbf{Punto a punto: } 12.7 kilometros.
 \end{itemize}
+
+\newpage
+\subsection{Nodos de sucursales}
+\textbf{Nodo Norte}
+\begin{itemize}
+    \item CEDIS Monterrey La Costeña
+    \item \textbf{Coordenadas: } 25.8216587 N, -100.3118234 W
+\end{itemize}
+
+\textbf{Nodo Centro}
+\begin{itemize}
+    \item La Costeña corporativo.
+    \item \textbf{Coordenadas: } 19.44 N, 99.20 W.
+\end{itemize}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.7\textwidth]{imagenes/nodos.PNG}
+    \caption{Enlace de nodos entre sucursales.}
+\end{figure}
 
 \newpage
 \subsection{Conectividad enlace ATM}
@@ -545,7 +575,7 @@ entre pensamientos o esté totalmente en silencio. Sin el ruido de ralentí que 
 de un flujo de transmisión constante durante la supresión del silencio, es probable que el 
 oyente piense que la línea se ha cortado. \cite{vad}
 
-\subsubsection{MPLS}
+\subsubsection{Características de ATM: MPLS}
 Conmutación de etiquetas multiprotocolo (MPLS)
 La conmutación de etiquetas multiprotocolo (MPLS) es una técnica de enrutamiento agnóstico 
 al protocolo diseñada para acelerar y dar forma a los flujos de tráfico a través de las 
@@ -565,11 +595,6 @@ en tiempo real, como voz y vídeo.
 En una red MPLS, el primer enrutador en recibir un paquete determina la ruta completa 
 del paquete por adelantado, cuya identidad se transmite rápidamente a los enrutadores 
 subsiguientes utilizando una etiqueta en la cabecera del paquete.
-\\ \\
-Mientras que el hardware del router ha mejorado exponencialmente desde que se desarrolló 
-MPLS, disminuyendo un poco su importancia como una tecnología de gestión de tráfico más 
-eficiente, sigue siendo importante y popular debido a sus otros beneficios, en particular 
-la seguridad, la flexibilidad y la ingeniería de tráfico. 
 \\ \\
 \textbf{Componentes de MPLS}
 \newline
@@ -591,24 +616,23 @@ Los trayectos, que se denominan trayectos con conmutación de etiquetas (LSP),
 permiten a los proveedores de servicios decidir de antemano la mejor manera de 
 que determinados tipos de tráfico fluyan dentro de una red privada o pública. \cite{mpls}
 
-\newpage
 \subsection{Servicios Schedule VF}
 \begin{table}[ht]
     \centering
-    \begin{tabular}{|l|l|}
+    \begin{tabular}{|l|l|l|}
     \hline
-    Departamento & Disponibilidad \\ \hline
-    Presidencia & Todo el día \\ \hline
-    Dirección general & 10:00 a. m. - 5:00 pm \\ \hline
-    Secretaría general & 10:00 a. m. - 5:00 pm \\ \hline
-    Asesoría juridica & No \\ \hline
-    Comunicación e imagén & 12:00 a. m. - 4:00 pm \\ \hline
-    Relaciones internacionales & Todo el día \\ \hline
-    Departamento administrativo & No \\ \hline
-    Departamento de producción & No \\ \hline
-    Departamento comercial & 9:00 a. m. - 3:00 pm \\ \hline
-    Departamento financiero & No \\ \hline
-    Relaciones publicas & No \\ \hline
+    Departamento & Disponibilidad & Servicio \\ \hline
+    Presidencia & Todo el día & Platinum \\ \hline
+    Dirección general & 10:00 a. m. - 5:00 pm & Platinum \\ \hline
+    Secretaría general & 10:00 a. m. - 5:00 pm & Platinum \\ \hline
+    Asesoría juridica & No & Gold \\ \hline
+    Comunicación e imagén & 12:00 a. m. - 4:00 pm & Silver \\ \hline
+    Relaciones internacionales & Todo el día & Gold \\ \hline
+    Departamento administrativo & No & Básico \\ \hline
+    Departamento de producción & No & Silver \\ \hline
+    Departamento comercial & 9:00 a. m. - 3:00 pm & Silver \\ \hline
+    Departamento financiero & No & Básico\\ \hline
+    Relaciones publicas & No & Básico \\ \hline
     \end{tabular}
     \caption{Schedule VF}
     \label{my-label}
@@ -617,7 +641,7 @@ que determinados tipos de tráfico fluyan dentro de una red privada o pública. 
 \subsection{Resumen de resultados para el ancho de banda}
 En la siguiente tabla se muestran el ancho de banda total de ida y vuelta a ser consumido por 
 la intranet del corporativo. La realización de los cálculos se encuentran en la sección de 
-anexos.
+anexos. Este ancho de banda ya se encuentra multiplicado por dos tomando en cuenta ida y vuelta.
 \begin{table}[ht]
     \centering
     \begin{tabular}{|l|l|l|l|l|l|}
@@ -639,11 +663,7 @@ El diseño PDH permite el streaming de datos sin tener isócronos (relojes que f
 la misma hora, perfectamente sincronizados) para sincronizar los intercambios de señales. 
 Los relojes PDH están funcionando muy cerca, pero no exactamente a tiempo uno del otro, 
 de modo que al multiplexar, los tiempos de llegada de la señal pueden diferir, ya que 
-las velocidades de transmisión están directamente vinculadas a la velocidad del reloj. 
-\\ \\
-PDH permite que cada flujo de una señal multiplexada se rellene con bits para compensar 
-las diferencias de tiempo, de modo que el flujo de datos original pueda reconstituirse 
-exactamente como se envió.
+las velocidades de transmisión están directamente vinculadas a la velocidad del reloj.
 \\ \\
 El término plesiócrono significa casi sincrónico. PDH soporta una velocidad de 
 transmisión de datos de 2048 Kbps. La velocidad de datos es controlada por un reloj en 
@@ -698,16 +718,6 @@ $531.26 \ Mbps \approx E5 = 564.99 \ Mbps$
 \newline
 $887.34 \ Mbps \approx E5 + 2E4+2E3 = 915.23 \ Mbps$
 \\ \\
-
-
-
-
-
-
-
-
-
-
 
 
 \newpage
@@ -877,7 +887,7 @@ se ofrece en forma de chasis para montaje en bastidor de 19 pulgadas. \cite{gate
     \item Protocolo de transferencia de archivos triviales (TFTP).
     \item Servidor HTTP.
     \item SNMP.
-    \item Telnet.
+    \item Telnet, FTP y Video conferencia.
     \item Protocolo de configuración dinámica de host (DHCP).
     \item Sistema de nombres de dominio (DNS).
     \item Cisco Unified Communications Manager o Cisco Unified 
@@ -908,6 +918,168 @@ se ofrece en forma de chasis para montaje en bastidor de 19 pulgadas. \cite{gate
     \caption{CWDM.}
 \end{figure}
 
+\subsubsection{Gestor de servidor}
+Para el gestor del servidor se propone el siguiente modelo: Servidor HPE ProLiant DL580 Gen10.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.3]{imagenes/servidor.PNG}
+    \caption{Muestra del servidor.}
+\end{figure}
+\\ \\
+Enseguida se muestran sus características sobresalientes. \cite{servidorhp}
+\\ \\
+\textbf{Especificaciones técnicas}
+\begin{itemize} 
+    \item Núcleo de procesador disponible.
+         \begin{itemize} 
+            \item 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6 o 4, por procesador, según 
+            el modelo.
+         \end{itemize}
+    \item Caché de procesador.
+        \begin{itemize}
+            \item 13,75 MB L3, 16,5 MB L3, 19,25 MB L3, 22 MB L3, 24,75 MB L3, 27,5 MB L3, 
+            30,25 MB L3, 33 MB L3, 35,75 MB L3 o 38,5 MB L3, por procesador, según el modelo.
+        \end{itemize}
+    \item Procesador.
+        \begin{itemize}
+            \item Procesadores escalables Intel® Xeon®.
+        \end{itemize}
+    \item Número de procesadores.
+        \begin{itemize} 
+            \item 4, 3, 2 o 1.
+        \end{itemize}
+    \item Velocidad del procesador.
+        \begin{itemize} 
+            \item 3.6GHz, máximo según el procesador.
+        \end{itemize}
+    \item Memoria máxima.
+        \begin{itemize} 
+            \item 6 TB máximo.
+        \end{itemize}
+    \item Ranuras de memoria.
+        \begin{itemize} 
+            \item Máximo 48 ranuras DIMM.
+        \end{itemize}
+    \item Tipo de memoria.
+        \begin{itemize} 
+            \item HPE DDR4 SmartMemory.
+        \end{itemize}
+    \item Tipo de fuente de alimentación.
+        \begin{itemize} 
+            \item 4 fuentes de alimentación de ranura flexible HPE, máximo según el modelo.
+        \end{itemize}
+    \item Ranuras de expansión.
+        \begin{itemize} 
+            \item 16 máximo, para obtener una descripción detallada, consulte las especificaciones rápidas.
+        \end{itemize}
+    \item Controlador de red.
+        \begin{itemize} 
+            \item FlexibleLOM opcional.
+        \end{itemize}
+    \item Controlador de almacenamiento.
+        \begin{itemize} 
+            \item Controladoras HPE Smart Array S100i o HPE Smart Array, según el modelo.
+        \end{itemize}
+\end{itemize}
+
+\subsubsection{Cable Ethernet para intranet}
+\begin{itemize}
+    \item \textbf{Cat-5e: } Tiene una especificación de frecuencia ligeramente superior a la del cable Cat-5, ya que el rendimiento se extiende hasta 125 Mbps. Se puede utilizar para 100Base-T y 1000Base-T 
+    (Gigabit Ethernet). Cat 5e o mejorada es una forma de cable Cat 5 fabricado para especificaciones más altas, aunque físicamente es igual a Cat 5. Se prueba con una especificación más alta.
+\end{itemize}
+
+\begin{table}[ht]
+    \centering
+    \begin{tabularx}{1.0\textwidth}{|l|l|l|l|l|}
+    \hline
+    Tecnología & Velocidad de transmisión & Tipo de cable & Distancia máxima \\ \hline
+    100BaseT4 & 100 Mbit/s & Par Trenzado (categoría 3UTP) & 100 m \\ \hline
+    100BaseTX & 100 Mbit/s & Par Trenzado (categoría 5UTP) & 100 m \\ \hline
+    100BaseFX & 100 Mbit/s & Fibra óptica & 2000 m \\ \hline
+    1000BaseT & 1000 Mbit/s & (categoría 5e ó 6UTP ) & 100 m \\ \hline
+    \end{tabularx}
+    \caption{Tecnologías Ethernet. \cite{ethernet}}
+    \label{my-label}
+\end{table}
+
+\subsubsection{Switch}
+Para los piso 7 y 8 se recomienda el siguiente switch. Cisco Meraki MS120-48. 
+Esto con base al hecho de que por parte del piso 8 se necesita un equipo robusto y confiable 
+a pesar de que el ancho de banda requerido es menor que el del piso 7.
+\\ \\
+Por otra parte mientras que el grado de servicio para el piso 7 es menor, existe un mayor 
+numero de usuarios que estarán conectados a la red. Así es que se propone la adquisición de estos 
+equipos para la construcción de la red. \cite{swicthes}
+\\ \\
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.6]{imagenes/sw1.PNG}
+    \caption{Switch propuesto.}
+\end{figure}
+\\ 
+\textbf{Aspectos destacados del producto}
+\begin{itemize} 
+    \item Puertos de conmutador.
+         \begin{itemize} 
+            \item Modelos de puerto 48 * 1G.
+            \item 4 * 1G SFP uplinks.
+         \end{itemize}
+    \item Potencia/PoE.
+        \begin{itemize}
+            \item Modelo sin motor.
+            \item MS120-48LP incluye 370W.
+            \item MS120-48FP incluye 740W.
+            \item Hasta 30 W por puerto.
+        \end{itemize}
+    \item Plataforma de hardware.
+        \begin{itemize}
+            \item Plataforma fiable con soporte Meraki 24/7.
+            \item Montaje en rack 1RU.
+            \item Modelo de bajo ruido, sin ventilador disponible.
+            \item QoS de voz y vídeo.
+            \item Tejido de interruptor sin bloqueo.
+        \end{itemize}
+    \item Gestión de la nube.
+        \begin{itemize} 
+            \item Alertas por correo electrónico para la gestión del conmutador.
+            \item  Herramientas remotas de resolución de problemas.
+            \item Administrar puertos desde un panel de control basado en GUI.
+            \item Aprovisionamiento sin contacto.
+            \item Estadísticas de uso por puerto y por cliente.
+            \item Actualizaciones de firmware seguras y programadas por el usuario.
+        \end{itemize}
+    \item Capacidades de conmutación.
+        \begin{itemize} 
+            \item Relé DHCP.
+            \item Autenticación 802.1X.
+            \item DHCP Snooping.
+            \item Mejoras en STP.
+            \item ACLs IPv4 e IPv6.
+        \end{itemize}
+\end{itemize}
+
+\newpage
+\subsubsection{SAN}
+\textbf{Storage Hpe Msa 2050}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.6]{imagenes/san.jpg}
+    \caption{SAN propuesto.}
+\end{figure}
+\begin{itemize}
+    \item \textbf{Capacidad: }Capacidad Bruta Máxima De 614 Tb Sff
+    \item \textbf{Descripción De Unidad: }24 Sff Sas/Mdl Sas/Ssd Admitidas
+    \item \textbf{Interfaz De Host: }Incluye Canal De Fibra De 16 Gb/8 Gb, 4 Puertos Por Controladora O 1 Gbe/10 Gbe Iscsi, 4 Puertos Por Controladora
+    \item \textbf{Controlador De Almacenamiento: }2 Controladoras Hpe Msa 2050 San Incluidas
+    \item \textbf{Opciones De Expansión De Almacenamiento: }Bandeja Para Unidades De Disco Lff Hpe Msa 2050 O Bandeja Para Unidades De Disco Sff Hpe Msa 2050
+    \item \textbf{Admite Agrupación En Clúster: }Windows, Linux, Hp-Ux, Openvms
+    \item \textbf{Sistemas Operativos Compatibles: }Microsoft Windows Server 2016 Microsoft Windows Server 2012, Microsoft Windows Server 2012 R2, Microsoft Windows Hyper-V, Hp-Ux, Red Hat Linux, Suse Linux, Vmware
+\end{itemize}
+
+
+
+
+\newpage
 \subsection{Ruta superficial, subsuelo o aerea}
 
 \newpage
