@@ -324,75 +324,8 @@ La distancias son las subsiguientes.
 \end{figure}
 
 \newpage
-\subsection{Arquitectura de red (Intra-ATM)}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.9\textwidth,angle=90]{imagenes/Lan8.png}
-    \caption{Diseño propuesto de la red LAN para el piso 8.}
-\end{figure}
+\subsection{Topología}
 
-\newpage
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.9\textwidth,angle=90]{imagenes/Lan7.png}
-    \caption{Diseño propuesto de la red LAN para el piso 7.}
-\end{figure}
-
-\newpage
-\subsection{Características Front End}
-A continuación se muestra la vista principal del Front End para los clientes.
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=1\textwidth]{imagenes/fron0.png}
-    \caption{Vista principal al publico.}
-\end{figure}
-\\
-Como se describe en la fígura los clientes interesados en comprar los productos de la Costeña 
-tendran 5 opciones. Realizar compras mayoristas, minoristas o personalizadas de acuerdo con 
-sus necesidades. Las opciones restantes que se ofrecen es un catalogo de productos y la oportunidad 
-de comunicarse de una manera mas personal.
-
-\newpage
-La imagen que se muestra a continuación es la opción de catalogo.
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=1\textwidth]{imagenes/fron1.png}
-    \caption{Vista de catalogo.}
-\end{figure}
-
-\newpage
-Por ultimio se muestra el sitio principal con el cual el personal del coorporativo podra 
-realizar sus labores. 
-La imagen que se muestra a continuación es la opción de catalogo.
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=1\textwidth]{imagenes/fron2.png}
-    \caption{Vista de catalogo.}
-\end{figure}
-
-\subsubsection{Características técnicas}
-En esta sección se describen las tecnologías usadas para su construcción.
-\begin{itemize}
-    \item \textbf{Sitio web:} HTML, CSS, JavaScript, C\#, ASP MVC.
-    \item \textbf{Base de datos: } Microsoft T-SQL
-    \item \textbf{Manejador de base de datos: SQ} Microsoft SQL Server 2017
-    \item \textbf{transferencia de archivo: } Filezilla
-\end{itemize}
-Ahora se enlistan los tipos de servidores que son necesarios.
-\begin{itemize}
-    \item Servidos de sitios web.
-    \item Servidor de archivos.
-    \item Servidor de base de datos.
-    \item Servidor DNS que proporcione el acceso al publico.
-\end{itemize}
-Los diferentes tipos de base de datos a se consumidos por la aplicación web son:
-\begin{itemize}
-    \item Base de datos de Clientes.
-    \item Base de datos de Productos.
-    \item Base de datos de Pagos por servicio.
-    \item Base de datos de Pagos por consumo de servicios.
-    \item Base de datos de Personal.
-\end{itemize}
 
 \newpage
 \section{Planeación}
@@ -717,64 +650,143 @@ $531.26 \ Mbps \approx E5 = 564.99 \ Mbps$
 \textbf{PDH piso 7}
 \newline
 $887.34 \ Mbps \approx E5 + 2E4+2E3 = 915.23 \ Mbps$
-\\ \\
 
+\newpage
+\subsection{Arquitectura de red (Intra-ATM)}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.9\textwidth,angle=90]{imagenes/Lan8.png}
+    \caption{Diseño propuesto de la red LAN para el piso 8.}
+\end{figure}
+
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.9\textwidth,angle=90]{imagenes/Lan7.png}
+    \caption{Diseño propuesto de la red LAN para el piso 7.}
+\end{figure}
+
+\newpage
+\subsection{Enlace ISP}
+A continuación se muestra la vista principal del Front End para los clientes.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes/fron0.png}
+    \caption{Vista principal al publico.}
+\end{figure}
+\\
+Como se describe en la fígura los clientes interesados en comprar los productos de la Costeña 
+tendran 5 opciones. Realizar compras mayoristas, minoristas o personalizadas de acuerdo con 
+sus necesidades. Las opciones restantes que se ofrecen es un catalogo de productos y la oportunidad 
+de comunicarse de una manera mas personal.
+
+\newpage
+La imagen que se muestra a continuación es la opción de catalogo.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes/fron1.png}
+    \caption{Vista de catalogo.}
+\end{figure}
+
+\newpage
+Por ultimio se muestra el sitio principal con el cual el personal del coorporativo podra 
+realizar sus labores. 
+La imagen que se muestra a continuación es la opción de catalogo.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes/fron2.png}
+    \caption{Vista de catalogo.}
+\end{figure}
+
+\subsubsection{Características técnicas}
+En esta sección se describen las tecnologías usadas para su construcción.
+\begin{itemize}
+    \item \textbf{Sitio web:} HTML, CSS, JavaScript, C\#, ASP MVC.
+    \item \textbf{Base de datos: } Microsoft T-SQL
+    \item \textbf{Manejador de base de datos: SQ} Microsoft SQL Server 2017
+    \item \textbf{Transferencia de archivo: } Filezilla.
+\end{itemize}
+Ahora se enlistan los tipos de servidores que son necesarios de acuerdo con los 
+requerimientos del Front-End.
+\begin{itemize}
+    \item Servidos de sitios web.
+    \item Servidor de archivos.
+    \item Servidor de base de datos.
+    \item Servidor DNS que proporcione el acceso al publico.
+\end{itemize}
+Los diferentes tipos de base de datos a se consumidos por la aplicación web son:
+\begin{itemize}
+    \item Base de datos de Clientes.
+    \item Base de datos de Productos.
+    \item Base de datos de Ventas.
+    \item Base de datos de Pagos.
+    \item Base de datos de Personal.
+    \item Base de datos de Usuarios.
+\end{itemize}
 
 \newpage
 \section{Requerimientos Ecomerce}
+\subsection{Definición de ancho de banda}
+Con el objetivo de proveer el suficiente ancho de banda para los servicios ofrecidos por 
+el Front-End, se propone un ancho de banda de 4 Gb. En este ancho de banda propuesto se 
+contemplan las transacciones hacia las diferentes bases de datos ubicadas en el centro de 
+datos. También los recursos multimedia, como imagenes o animaciones. En caso de ocupar videos 
+o audios de propones utilizar el alojamiento de terceros como YouTube o SoundCloud.
 
-\newpage
-\section{Cálculo de enlace}
-\subsection{SDH}
-El acrónimo SDH significa Synchronous Digital Hierarchy (Jerarquía digital síncrona) y se 
-refiere a una tecnología de multiplexación utilizada en las telecomunicaciones. SDH permite 
-combinar flujos de datos con velocidades binarias bajas en flujos de datos de alta velocidad. 
-Dado que toda la red es síncrona, los flujos de bits individuales pueden incrustarse y 
-extraerse de flujos de datos de alta velocidad con relativa facilidad.
-\\ \\
-Las especificaciones iniciales se desarrollaron en 1985 en los EE.UU. bajo el término SONET. 
-Como nuevo sistema de transmisión óptica digital, SONET debía proporcionar ventajas clave 
-sobre la jerarquía digital plesiócrona (PDH), sin dejar de ser capaz de transportar PDH. 
-SDH normalizado por el UIT-T basado en SONET. SONET y SDH son interoperables. SDH es 
-adecuado como sistema de transmisión para RDSI de banda ancha y para el transporte de 
-células ATM, señales PDH, agregaciones Ethernet, señales SAN y otras señales de comunicación.
-
-\subsubsection{Funcionamiento básico de la jerarquía digital síncrona}
-SDH combina n señales con una velocidad de bits de b para formar flujos de datos con 
-velocidades de bits de n x b en una red sincronizada. A diferencia de la PDH, las rutas de 
-transmisión individuales tienen discrepancias mínimas en el reloj. El modo de 
-funcionamiento síncrono permite que los sistemas multiplexores de bajo orden, como los 
-enlaces de comunicación para sistemas telefónicos, se inserten en niveles jerárquicos 
-superiores y luego se eliminen de nuevo mediante la adición y la eliminación. De acuerdo 
-con los niveles definidos por el estándar, SDH reconoce diferentes jerarquías como STM-1, 
-STM-4, STM-16 o STM-64 (155 MBits, 622 MBits, 2.488 MBits, 9.953 MBits) y más. Alrededor 
-del 5\% de la tasa bruta de datos se reserva para las tareas de la OAM (operaciones, 
-administración y mantenimiento). Los datos se transportan de forma transparente a través 
-de la red SDH en contenedores.
-
-\subsubsection{Los componentes SDH de las distintas capas}
-En la capa física, la jerarquía síncrona digital utiliza conexiones basadas en líneas de 
-cobre, fibra óptica o enlaces por satélite y radiogoniometría. Las señales distorsionadas 
-o silenciadas se pueden refrescar mediante regeneradores. En la capa superior, los 
-multiplexores combinan las señales en flujos de datos de alta velocidad de bits. Por 
-último, los contenedores virtuales transportan los contenedores individuales de datos 
-utilizables y controlan el mapeo de las distintas señales de diferentes velocidades binarias.
-
-%\newpage
-%Jerarquía SDH para un modelo Europeo.
-%\begin{figure}[ht]
-%    \centering
-%    \includegraphics[width=1\textwidth]{imagenes/sdhj.png}
-%    \caption{Jerarquía SDH.}
-%\end{figure}
-\newpage
-Jerarquía SDH y SONET.
+\subsection{Arquitectura}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=.8\textwidth]{imagenes/sdhj1.png}
-    \caption{Jerarquía SDH.}
+    \includegraphics[width=.75\textwidth]{imagenes/arqcom.png}
+    \caption{Arquitectura.}
 \end{figure}
 
+\subsection{Servicios ISP}
+El ISP se propone que sea Totalplay. Esto debido a las mediciones presentadas en la siguiente 
+tabla.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes/isp.png}
+    \caption{Comparación ISP.}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Navegador: }Google Chrome, Mozilla Firefox, Internet Explorer, Safari 
+    y Opera. 
+    \item \textbf{Buscadores: }Google, Bing, Yahoo, DuckDuckGo.
+\end{itemize}
+
+\subsection{Servicios DNS}
+\textbf{Web hosting - Hostgator}
+\begin{itemize}
+    \item Servidor dedicado.
+    \item 1 TB de almacenamiento.
+    \item Soporte de tecnologías web - ASP, PHP, JSP, Python.
+    \item Costo de \$2,430 al mes.
+    \item Ancho de banda de 25 TB.
+\end{itemize}
+
+\textbf{Servicio DNS - Dynu}
+\begin{itemize}
+    \item Panel de control fácil de usar
+    \item Control total de su nombre de dominio
+    \item Cliente DNS dinámico gratuito
+    \item Tiempo de actividad de DNS fiable a través de servidores DNS redundantes ubicados geográficamente
+    \item Opciones de redirección y fuera de línea del puerto 80
+    \item Soporte para prácticamente todos los tipos de registros DNS
+\end{itemize}
+
+\textbf{Servicio DNS - Localización}\\
+La Ubicación del DNS se encuentra en Houston, TX. 
+\\ \\
+\textbf{Servicio DNS - Requisitos administrativos}
+\begin{itemize}
+    \item Contar con una cuenta vigente.
+    \item Contar con una tarjeta de credito vigente.
+    \item Contar con un nombre de dominio libre.
+    \item Contar con equipo de administración dedicada.
+\end{itemize}
+
+\subsection{Requerimientos BW, tec de transmisión SHD y redundancia}
 \subsubsection{Multiplexado y redundancia}
 De acuerdo con la tabla anterior y nuestros datos del ancho de banda.
 \begin{itemize}
@@ -782,11 +794,41 @@ De acuerdo con la tabla anterior y nuestros datos del ancho de banda.
     \item \textbf{Ancho de banda reservado para servicios de Intranet: } 1.4172 [Gbps].
 \end{itemize}
 
-\textbf{Ancho de banda total: } 4 + 1.4172 = 5.4172 [Gbps]
+\textbf{Ancho de banda total: } 4 [Gbps]
 \\ \\
-5.4172 Gbps $\approx$ 2-STS-48 + 1-STS-69 = 6.842 [Gbps]
+4 Gbps $\approx$ 2*STS-48 = 4.976 [Gbps]
 \\ \\
-La multiplexación anterior nos deja con 1.4248 [Gbps] de redundancia.
+La multiplexación anterior nos deja con 0.976 [Gbps] de redundancia.
+
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{imagenes/sdhj1.png}
+    \caption{Tabla de referencia de Jerarquía SDH.}
+\end{figure}
+
+\newpage
+\section{Cálculo de enlace}
+\subsection{Corporativo - Centro de datos}
+\subsubsection{BW}
+Como se estimo anteriormente, el ancho de banda a ser utilizado por este enlace es de 
+1.4172 [Gbps].
+\subsubsection{Multiplexado y redundancia}
+De acuerdo con la tabla de jerarquías mostrada anteriormente se tiene: 
+\\ \\
+1.4172 [Gbps] $\approx$ 1*STS-24 + 1*STS-12 = 1.866 [Gbps]
+\\ \\
+La unidad STS-12 se eligió con el fin de tener una redundancia de 0.449 [Gbps].
+
+\subsection{Centro de datos - MCM Telecom}
+\subsubsection{BW}
+De acuerdo con la sección anterior se tienes un ancho de banda de 4 [Gbps].
+\subsubsection{Multiplexado y redundancia}
+\textbf{Ancho de banda total: } 4 [Gbps]
+\\ \\
+4 Gbps $\approx$ 2*STS-48 = 4.976 [Gbps]
+\\ \\
+La multiplexación anterior nos deja con 0.976 [Gbps] de redundancia.
 
 \newpage
 \subsection{Rutas principales}
@@ -850,6 +892,141 @@ Ruta alternativa.
     \item Longitud redundante: $16.1*.20\%=3.22km$
     \item Longitud total: 19.23 $km$ 
 \end{itemize}
+
+\subsection{Ruta superficial, subsuelo y/o aerea}
+Mostrada por aparte.
+
+\newpage
+\subsection{Normatividad}
+Enseguida se muestra una tabla con las recomendaciones realizadas por la UIT-T.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.7\textwidth]{imagenes/norm.PNG}
+    \caption{Normas.}
+\end{figure}
+
+Con base en ellas se muestran un resumen de las recomendaciones para la instalación 
+de los tendidos subterraneos y aereos.
+
+\subsubsection{Tendido aereo}
+\begin{itemize}
+    \item Instalar el fiador.
+    \item Preparar equipamiento.
+    \item Instalar cable guía y fijador al fiador.
+    \item Respetar los radios de curvatura apropiados.
+    \item Elevar el cable de Fibra óptica hasta el cable guía y fijador.
+    \item Mantener la distancia de seguridad de la bobina de cable (15 mts) en relación 
+    al fijador.
+    \item Instalar fijador y asegurar al fiador (abrazadera de fijación).
+    \item Atar el cable al fiador en la abrazadera de manera temporal.
+    \item Ajustar el fijador para una adecuada operación.
+    \item Fijar un cabo de tiro al fijador.
+    \item Iniciar la operación de estirar a mano sin brusquedad y mantener la velocidad de 
+    estirado respetando la distancia de seguridad de la bobina.
+    \item En cada poste se detiene el tendido y se realiza el lazo de expansión 
+     si este es preciso (no es necesario en cables autoportantes).
+    \item Continuar el tendido identificando en cada poste con etiquetas de aviso de cable 
+    óptico.
+    \item Cuando sea preciso, la cajas de empalmes se pueden montar en postes 
+     o en el cable fiador .
+\end{itemize}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{imagenes/ta0.jpg}
+    \caption{Preparación de instalación de tendido aereo.}
+\end{figure}
+
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.7\textwidth]{imagenes/ta1.jpg}
+    \caption{Instalación en poste.}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.7\textwidth]{imagenes/ta2.jpg}
+    \caption{Fijación en poste.}
+\end{figure}
+
+\newpage
+\subsubsection{Tendido subterraneo}
+\begin{itemize}
+    \item Asegurarse de guardar las precauciones de seguridad (identificación de arquetas, 
+    presencia de gases, combustibles, cables de energía, etc).
+    \item Preparación, inspección e identificación de los conductos a utilizar (lubricado, 
+    dimensionado, etc).
+    \item Preparar cable guía de tracción, de ser preciso.
+    \item Instalar cable guía.
+    \item Respetar los radios de curvatura apropiados.
+    \item Colocar la bobina de cable en los soportes adecuados para facilitar el 
+    desencarretado.
+    \item Colocar las poleas y rodillos necesarios para facilitar el arrastre del cable 
+    a través de los conductos y arquetas del trayecto.
+    \item Instalar fijador y asegurar el fiador (abrazadera de fijación).
+    \item Atar el cable al fiador en la abrazadera de manera temporal.
+    \item Ajustar el fijador para una adecuada operacíón.
+    \item Iniciar la operación de estirar a mano sin brusquedad y mantener la velocidad 
+    de estirado y lubricar el cable si es necesario.
+    \item En cada arqueta se verificará el guiado del cable y se realizará la reserva de 
+    cable si esta es precisa (sobre todo en arquetas de cambio de dirección).
+    \item Continuar el tendido procurando que los extremos de los cables de cada trayecto, 
+    coincidan en una arqueta para su posterior mecanización mediante empalmes. Prever 
+    la longitud necesaria para la realización de los empalmes fuera de la arqueta.
+    \item Identificar en las arquetas de empalme los extremos de cada cable con etiquetas 
+    de identificación de cable óptico.
+    \item Asegurarse de que durante el tendido (siempre que sea posible mediante tracción 
+    manual) se mantiene una holgura de desencarretado de 3 o 4 metros para evitar excesiva 
+    fuerza de tracción y rozaduras en el cable.
+    \item Terminado el trayecto deberá realizarse una verificación del tendido del cable 
+    óptico mediante un OTDR con el fin de comprobar que no haya sufrido daño alguno el 
+    cable (roturas, radios de curvatura excesivos, etc).
+    \item Acondicionar el cable y cerrar cada una de las arquetas del trayecto 
+    correspondiente (grapeado del cable, identificación de reservas, sellado de conductos, 
+    etc).
+\end{itemize}
+
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.9\textwidth]{imagenes/ts0.jpg}
+    \caption{Preparación de instalación de tendido aereo.}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.9\textwidth]{imagenes/ts1.jpg}
+    \caption{Preparación de instalación de tendido aereo.}
+\end{figure}
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.9\textwidth]{imagenes/ts2.jpg}
+    \caption{Preparación de instalación de tendido aereo.}
+\end{figure}
+
+
+\newpage
+\subsection{Ducteria}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.7\textwidth]{imagenes/ductos.PNG}
+    \caption{Ducto.}
+\end{figure}
+
+\newpage
+\subsection{Fibras}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.67\textwidth]{imagenes/fibra1.PNG}
+    \caption{Fibra subterranea.}
+\end{figure}
+
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.67\textwidth]{imagenes/fibra2.PNG}
+    \caption{Fibra aerea.}
+\end{figure}
 
 \newpage
 \subsection{Equipos}
@@ -1076,156 +1253,256 @@ equipos para la construcción de la red. \cite{swicthes}
     \item \textbf{Sistemas Operativos Compatibles: }Microsoft Windows Server 2016 Microsoft Windows Server 2012, Microsoft Windows Server 2012 R2, Microsoft Windows Hyper-V, Hp-Ux, Red Hat Linux, Suse Linux, Vmware
 \end{itemize}
 
-
-
-
 \newpage
-\subsection{Ruta superficial, subsuelo o aerea}
-
-\newpage
-\subsection{Normatividad}
-Enseguida se muestra una tabla con las recomendaciones realizadas por la UIT-T.
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.7\textwidth]{imagenes/norm.PNG}
-    \caption{Normas.}
-\end{figure}
-
-Con base en ellas se muestran un resumen de las recomendaciones para la instalación 
-de los tendidos subterraneos y aereos.
-
-\subsubsection{Tendido aereo}
+\subsection{Cálculo de enlace}
+\subsubsection{Datos}
 \begin{itemize}
-    \item Instalar el fiador.
-    \item Preparar equipamiento.
-    \item Instalar cable guía y fijador al fiador.
-    \item Respetar los radios de curvatura apropiados.
-    \item Elevar el cable de Fibra óptica hasta el cable guía y fijador.
-    \item Mantener la distancia de seguridad de la bobina de cable (15 mts) en relación 
-    al fijador.
-    \item Instalar fijador y asegurar al fiador (abrazadera de fijación).
-    \item Atar el cable al fiador en la abrazadera de manera temporal.
-    \item Ajustar el fijador para una adecuada operación.
-    \item Fijar un cabo de tiro al fijador.
-    \item Iniciar la operación de estirar a mano sin brusquedad y mantener la velocidad de 
-    estirado respetando la distancia de seguridad de la bobina.
-    \item En cada poste se detiene el tendido y se realiza el lazo de expansión 
-     si este es preciso (no es necesario en cables autoportantes).
-    \item Continuar el tendido identificando en cada poste con etiquetas de aviso de cable 
-    óptico.
-    \item Cuando sea preciso, la cajas de empalmes se pueden montar en postes 
-     o en el cable fiador .
-\end{itemize}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.8\textwidth]{imagenes/ta0.jpg}
-    \caption{Preparación de instalación de tendido aereo.}
-\end{figure}
-
-\newpage
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.8\textwidth]{imagenes/ta1.jpg}
-    \caption{Instalación en poste.}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.8\textwidth]{imagenes/ta2.jpg}
-    \caption{Fijación en poste.}
-\end{figure}
-
-\newpage
-\subsubsection{Tendido subterraneo}
-\begin{itemize}
-    \item Asegurarse de guardar las precauciones de seguridad (identificación de arquetas, 
-    presencia de gases, combustibles, cables de energía, etc).
-    \item Preparación, inspección e identificación de los conductos a utilizar (lubricado, 
-    dimensionado, etc).
-    \item Preparar cable guía de tracción, de ser preciso.
-    \item Instalar cable guía.
-    \item Respetar los radios de curvatura apropiados.
-    \item Colocar la bobina de cable en los soportes adecuados para facilitar el 
-    desencarretado.
-    \item Colocar las poleas y rodillos necesarios para facilitar el arrastre del cable 
-    a través de los conductos y arquetas del trayecto.
-    \item Instalar fijador y asegurar el fiador (abrazadera de fijación).
-    \item Atar el cable al fiador en la abrazadera de manera temporal.
-    \item Ajustar el fijador para una adecuada operacíón.
-    \item Iniciar la operación de estirar a mano sin brusquedad y mantener la velocidad 
-    de estirado y lubricar el cable si es necesario.
-    \item En cada arqueta se verificará el guiado del cable y se realizará la reserva de 
-    cable si esta es precisa (sobre todo en arquetas de cambio de dirección).
-    \item Continuar el tendido procurando que los extremos de los cables de cada trayecto, 
-    coincidan en una arqueta para su posterior mecanización mediante empalmes. Prever 
-    la longitud necesaria para la realización de los empalmes fuera de la arqueta.
-    \item Identificar en las arquetas de empalme los extremos de cada cable con etiquetas 
-    de identificación de cable óptico.
-    \item Asegurarse de que durante el tendido (siempre que sea posible mediante tracción 
-    manual) se mantiene una holgura de desencarretado de 3 o 4 metros para evitar excesiva 
-    fuerza de tracción y rozaduras en el cable.
-    \item Terminado el trayecto deberá realizarse una verificación del tendido del cable 
-    óptico mediante un OTDR con el fin de comprobar que no haya sufrido daño alguno el 
-    cable (roturas, radios de curvatura excesivos, etc).
-    \item Acondicionar el cable y cerrar cada una de las arquetas del trayecto 
-    correspondiente (grapeado del cable, identificación de reservas, sellado de conductos, 
-    etc).
+    \item \textbf{Longitud total: }
+    \item \textbf{Especificaciones de fibra óptica: } $P_Tx=5 \ dBm$, $P_Rx=-16 \ dBm$
+    \item \textbf{Especificaciones de equipo de transmisión y recepción: }
+    \item \textbf{Atenuación de conector: }0.5
+    \item \textbf{Atenuación de empalme: }0.3
+    \item \textbf{Atenuación de reserva: }3
 \end{itemize}
 
+\begin{equation}
+    At_N=L_N+A_c*N_c+A_e*N_e
+\end{equation}
+
+\subsubsection{Corporativo - Centro de datos}
+\textbf{Tramo 1} \\
+$L_1=0.65 \ km$
+\\
+\begin{equation}
+    At_1=0.65*.02+0.5*1+0.3*1=0.93 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx1}-0.93=5-0.93=4.07 \ dBm
+\end{equation}
+
+\textbf{Tramo 2} \\
+$L_2=3.4 \ km$
+\\
+\begin{equation}
+    At_2=3.4*.02+0.5*1=1.18 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx2}-1.18=4.07-1.18=2.89 \ dBm
+\end{equation}
+
+\textbf{Tramo 3} \\
+$L_3=3.5 \ km$
+\\ 
+\begin{equation}
+    At_3=3.5*.02+0.5*1=1.2 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx3}-1.2=2.59-1.2=1.69 \ dBm
+\end{equation}
+
+\textbf{Tramo 4} \\
+$L_4=3.6 \ km$
+\\ 
+\begin{equation}
+    At_4=3.6*.02+0.5*1=1.22 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx4}-1.22=1.69-1.22=0.47 \ dBm
+\end{equation}
+
+\textbf{Tramo 5} \\
+$L_5=3.7 \ km$
+\\
+\begin{equation}
+    At_5=3.7*.02+0.5*1=1.24 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx5}-1.24=0.47-1.24=-0.77 \ dBm
+\end{equation}
+
+\textbf{Tramo 6} \\
+$L_6=1.3 \ km$
+\\
+\begin{equation}
+    At_6=1.3*.02+0.5*1=0.76 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx6}-0.76=-0.77-0.76=-1.53 \ dBm
+\end{equation}
+
+\textbf{Tramo 7} \\
+$L_7=1.7$
+\\ 
+\begin{equation}
+    At_7=1.7*.02+0.5*1+0.3*1=1.14 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx7}-1.14=-1.53-1.14=-2.67 \ dBm
+\end{equation}
+
+Potencia de recepción del enlace.
+\begin{equation}
+    \sum_{n=1}^{7} P_{Txn} = -2.67 \ dB
+\end{equation}
+\begin{equation}
+    P_{RxEnlace}-A_{Reserva}=-2.67-3=5.67 \ dBm
+\end{equation}
+
+Atenuación de total.
+\begin{equation}
+    \sum_{n=1}^{7} At_n = 7.67 \ dB
+\end{equation}
+
+Atenuación real.
+\begin{equation}
+    A_{real}=A_T+3=7.67+3=10.67 \ dB
+\end{equation}
+
+Potencia de recepción
+\begin{equation}
+    P_{Rx}=P_{Tx}-A_{Real}=5-10.67=-5.67 \ dB
+\end{equation}
+\\
+Como $P_{Rx}>-16dBm$, el enlace es PON (Passive Optic Network).
+
 \newpage
+\subsubsection{Centro de datos - ISP}
+\textbf{Tramo 1} \\
+$L_1=0.65 \ km$
+\\
+\begin{equation}
+    At_1=0.65*.02+0.5*1+0.3*1=0.93 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx1}-0.93=5-0.93=4.07 \ dBm
+\end{equation}
+
+\textbf{Tramo 2} \\
+$L_2=3.9 \ km$
+\\
+\begin{equation}
+    At_2=3.9*.02+0.5*1=1.28 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx2}-1.28=4.07-1.28=2.79 \ dBm
+\end{equation}
+
+\textbf{Tramo 3} \\
+$L_3=3.92 \ km$
+\\ 
+\begin{equation}
+    At_3=3.92*.02+0.5*1=1.284 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx3}-1.284=2.79-1.284=1.506 \ dBm
+\end{equation}
+
+\textbf{Tramo 4} \\
+$L_4=1.9 \ km$
+\\ 
+\begin{equation}
+    At_4=1.9*.02+0.5*1+0.3*1=1.18 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx4}-1.18=1.506-1.18=0.326 \ dBm
+\end{equation}
+
+\textbf{Tramo 5} \\
+$L_5=0.3 \ km$
+\\
+\begin{equation}
+    At_5=.3*.02+0.5*1+0.3*1=0.86 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx5}-0.86=0.326-0.86=-0.534 \ dBm
+\end{equation}
+
+\textbf{Tramo 6} \\
+$L_6=3.9 \ km$
+\\
+\begin{equation}
+    At_6=3.9*.02+0.5*1+0.3*1=1.58 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx6}-1.58=-0.534-1.58=-1.046 \ dBm
+\end{equation}
+
+\textbf{Tramo 7} \\
+$L_7=1 \ km$
+\\ 
+\begin{equation}
+    At_7=1*.02+0.5*1+0.3*1=1 \ dB
+\end{equation}
+\begin{equation}
+    P_{Tx7}-1=-1.046-1=-2.046 \ dBm
+\end{equation}
+
+Potencia de recepción del enlace.
+\begin{equation}
+    \sum_{n=1}^{7} P_{Txn} = -2.046 \ dB
+\end{equation}
+\begin{equation}
+    P_{RxEnlace}-A_{Reserva}=-2.046-3=-5.046 \ dBm
+\end{equation}
+
+Atenuación de total.
+\begin{equation}
+    \sum_{n=1}^{7} At_n = 8.114 \ dB
+\end{equation}
+
+Atenuación real.
+\begin{equation}
+    A_{real}=A_T+3=8.114+3=11.114 \ dB
+\end{equation}
+
+Potencia de recepción
+\begin{equation}
+    P_{Rx}=P_{Tx}-A_{Real}=5-11.114=-6.114 \ dB
+\end{equation}
+\\
+Como $P_{Rx}>-16dBm$, el enlace es PON (Passive Optic Network).
+
+\newpage
+\subsection{Simbología}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=.9\textwidth]{imagenes/ts0.jpg}
-    \caption{Preparación de instalación de tendido aereo.}
-\end{figure}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.9\textwidth]{imagenes/ts1.jpg}
-    \caption{Preparación de instalación de tendido aereo.}
-\end{figure}
-\newpage
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.9\textwidth]{imagenes/ts2.jpg}
-    \caption{Preparación de instalación de tendido aereo.}
-\end{figure}
-
-
-\newpage
-\subsection{Ducteria}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.7\textwidth]{imagenes/ductos.PNG}
-    \caption{Ducto.}
+    \includegraphics[scale=.7]{imagenes/simbo.png}
+    \caption{Simbología para mapas.}
 \end{figure}
 
 \newpage
-\subsection{Fibras}
+\subsection{Punto crítico}
+Se eligió el siguiente punto critico debido a que en una corta distancia se deben de hacer 
+dos cambios de tendido, lo que requiere la instalación de dos empalmes, de ser posible hacer 
+uso de la infraestructura existente, de no ser así, instalar nueva.
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=.67\textwidth]{imagenes/fibra1.PNG}
-    \caption{Fibra subterranea.}
+    \includegraphics[scale=.8]{imagenes/puntocritico.png}
+    \caption{Punto crítico.}
 \end{figure}
 
 \newpage
+Cambio de subterráneo a aéreo con origen en metro Sevilla.
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=.67\textwidth]{imagenes/fibra2.PNG}
-    \caption{Fibra aerea.}
+    \includegraphics[scale=.7]{imagenes/pc2.png}
+    \caption{Cambio de tendido subterráneo a aéreo.}
 \end{figure}
 
+\newpage
+Cambio de tendido aéreo a subterraneo.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.6]{imagenes/pc3.png}
+    \caption{Cambio de tendido aéreoa subterráneo.}
+\end{figure}
 
 \newpage
-\subsection{ADM, conectores, empalmes}
-
-\subsection{Cálculo enlace}
-
 \subsection{Conclusión}
-
 
 \newpage
 \section{Anexos}
-\subsection{Poligonal}
+\subsection{Descripción del enlace - Poligonal}
 \subsubsection{Coordenadas}
 \begin{itemize}
     \item \textbf{La Costeña corporativo:} $N 19.44 \ W 99.20$
@@ -1236,7 +1513,7 @@ de los tendidos subterraneos y aereos.
 \end{itemize}
 
 \newpage
-\subsection{Cálculos}
+\subsection{Cálculos de servicios}
 \textbf{Calculo de disponibilidad de acuerdo con el porcentaje del grado de servicio}
 \begin{equation}
     Margen=1-\frac{Grado \ de \ servicio}{100}
@@ -1684,7 +1961,6 @@ del nivel de servicio.
 \end{equation}
 \newline
 $BW_{Total}=1.4172684[Gbps]$
-
 
 \newpage
 \begin{thebibliography}{20}
