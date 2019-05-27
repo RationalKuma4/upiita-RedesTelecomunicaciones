@@ -73,20 +73,21 @@
 \BOOKMARK [3][-]{subsubsection.4.8.4}{Cable Ethernet para intranet}{subsection.4.8}% 73
 \BOOKMARK [3][-]{subsubsection.4.8.5}{Switch}{subsection.4.8}% 74
 \BOOKMARK [3][-]{subsubsection.4.8.6}{SAN}{subsection.4.8}% 75
-\BOOKMARK [2][-]{subsection.4.9}{C\341lculo de enlace}{section.4}% 76
-\BOOKMARK [3][-]{subsubsection.4.9.1}{Datos}{subsection.4.9}% 77
-\BOOKMARK [3][-]{subsubsection.4.9.2}{Corporativo - Centro de datos}{subsection.4.9}% 78
-\BOOKMARK [3][-]{subsubsection.4.9.3}{Centro de datos - ISP}{subsection.4.9}% 79
-\BOOKMARK [2][-]{subsection.4.10}{Simbolog\355a}{section.4}% 80
-\BOOKMARK [2][-]{subsection.4.11}{Punto cr\355tico}{section.4}% 81
-\BOOKMARK [2][-]{subsection.4.12}{Conclusi\363n}{section.4}% 82
-\BOOKMARK [1][-]{section.5}{Anexos}{}% 83
-\BOOKMARK [2][-]{subsection.5.1}{Descripci\363n del enlace - Poligonal}{section.5}% 84
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Coordenadas}{subsection.5.1}% 85
-\BOOKMARK [2][-]{subsection.5.2}{C\341lculos de servicios}{section.5}% 86
-\BOOKMARK [3][-]{subsubsection.5.2.1}{M\351todo para el c\341lculo del ancho de banda para VoIP}{subsection.5.2}% 87
-\BOOKMARK [3][-]{subsubsection.5.2.2}{M\351todo para el c\341lculo del ancho de banda para e-mail}{subsection.5.2}% 88
-\BOOKMARK [3][-]{subsubsection.5.2.3}{M\351todo para el c\341lculo del ancho de banda para chat}{subsection.5.2}% 89
-\BOOKMARK [3][-]{subsubsection.5.2.4}{M\351todo para el c\341lculo del ancho de la web empresarial}{subsection.5.2}% 90
-\BOOKMARK [3][-]{subsubsection.5.2.5}{M\351todo para el c\341lculo del ancho de banda para video conferencia}{subsection.5.2}% 91
-\BOOKMARK [3][-]{subsubsection.5.2.6}{Suma total del ancho de banda de los servicios telematicos}{subsection.5.2}% 92
+\BOOKMARK [3][-]{subsubsection.4.8.7}{Conector}{subsection.4.8}% 76
+\BOOKMARK [2][-]{subsection.4.9}{C\341lculo de enlace}{section.4}% 77
+\BOOKMARK [3][-]{subsubsection.4.9.1}{Datos}{subsection.4.9}% 78
+\BOOKMARK [3][-]{subsubsection.4.9.2}{Corporativo - Centro de datos}{subsection.4.9}% 79
+\BOOKMARK [3][-]{subsubsection.4.9.3}{Centro de datos - ISP}{subsection.4.9}% 80
+\BOOKMARK [2][-]{subsection.4.10}{Simbolog\355a}{section.4}% 81
+\BOOKMARK [2][-]{subsection.4.11}{Punto cr\355tico}{section.4}% 82
+\BOOKMARK [2][-]{subsection.4.12}{Conclusi\363n}{section.4}% 83
+\BOOKMARK [1][-]{section.5}{Anexos}{}% 84
+\BOOKMARK [2][-]{subsection.5.1}{Descripci\363n del enlace - Poligonal}{section.5}% 85
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Coordenadas}{subsection.5.1}% 86
+\BOOKMARK [2][-]{subsection.5.2}{C\341lculos de servicios}{section.5}% 87
+\BOOKMARK [3][-]{subsubsection.5.2.1}{M\351todo para el c\341lculo del ancho de banda para VoIP}{subsection.5.2}% 88
+\BOOKMARK [3][-]{subsubsection.5.2.2}{M\351todo para el c\341lculo del ancho de banda para e-mail}{subsection.5.2}% 89
+\BOOKMARK [3][-]{subsubsection.5.2.3}{M\351todo para el c\341lculo del ancho de banda para chat}{subsection.5.2}% 90
+\BOOKMARK [3][-]{subsubsection.5.2.4}{M\351todo para el c\341lculo del ancho de la web empresarial}{subsection.5.2}% 91
+\BOOKMARK [3][-]{subsubsection.5.2.5}{M\351todo para el c\341lculo del ancho de banda para video conferencia}{subsection.5.2}% 92
+\BOOKMARK [3][-]{subsubsection.5.2.6}{Suma total del ancho de banda de los servicios telematicos}{subsection.5.2}% 93
